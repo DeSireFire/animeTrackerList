@@ -102,3 +102,20 @@ venv.bak/
 
 # mypy
 .mypy_cache/
+
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+__pycache__/
+
+.idea
+*.torrent
+tracker.txt
+autopush.sh
+torrent-parser.py
+animeTrackerList.py
+animeTrackerListStart.sh
+proxyPool.sh
+animeTrackerList(back).py
+Time_Machine.py
+AT.py
