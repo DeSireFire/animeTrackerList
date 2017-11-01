@@ -2,11 +2,11 @@ http://tracker.ygdm.net:8080/announce
 http://tracker.skyts.cn:6969/announce
 http://tracker.anirena.com:81/announce
 http://p4p.arenabg.com:1337/announce
-http://tracker1.infohash.org:80/announce
 http://92.241.171.245:6969/announce
 http://ipv4.tracker.harry.lu:80/announce
 http://tracker.dm258.cn:7070/announce
 http://retracker.ohys.net:1096/announce
+http://opentracker.acgnx.com:6869/announce
 http://tracker.comicat.org:2015/announce
 http://tracker.pubt.net:2710/announce
 http://tracker.levelup.cn:8080/announce
@@ -32,6 +32,7 @@ http://208.67.16.113:8000/annonuce
 http://bt2.careland.com.cn:6969/announce
 http://server1.9sheng.cn:6969/announce
 http://open.tracker.skyts.net:6969/announce
+http://tracker1.itzmx.com:8080/stats2920856887
 http://163.172.157.35:1337/announce
 http://bt3.careland.com.cn:6969/announce
 http://tracker4.infohash.org:6969/announce
@@ -93,7 +94,6 @@ http://tracker1.infohash.org:6969/announce
 http://www.ygdm.net:6969/announce
 http://tracker.skyts.cc:6969/announce
 http://tracker.baravik.org:6970/announce
-http://t.acg.rip:6699/announce
 http://bigfoot1942.sektori.org:6969/announce
 http://open.acgtracker.com:1096/announce
 http://btfans.3322.org:6969/announce
@@ -105,6 +105,7 @@ http://torrent.gresille.org:80/announce
 http://anisaishuu.de:2710/announce
 http://tracker.skyts.net:6969/announce
 http://tracker.grepler.com:6969/announce
+http://tracker4.itzmx.com:2710/announce
 http://173.254.204.71:1096/announce
 http://tracker.moeing.org:7070/announce
 http://bt.sc-ol.com:2710/announce
@@ -117,6 +118,7 @@ http://tracker.nwps.ws:6969/announce
 http://bt.ttk.artvid.ru:6969/announce
 http://tracker.filetracker.pl:8089/announce
 http://5.79.83.193:2710/announce
+http://91.218.230.81:80/announce
 http://tracker.openbittorrent.com:80/announce
 http://qd.tracker.a-nime.cn:7173/announce
 http://tracker.torrenty.org:6969/announce
