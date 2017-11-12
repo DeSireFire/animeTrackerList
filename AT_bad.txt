@@ -70,6 +70,7 @@ http://tracker2.wasabii.com.tw:6969/announce
 https://tr.bangumi.moe:9696/announce
 http://tr.bangumi.moe:6969/announce
 http://btfans.3322.org:8080/announce
+http://tracker4.infohash.org:80/announce
 http://tracker.vanitycore.co:6969/announce
 http://tracker1.wasabii.com.tw:6969/announce
 http://tracker.yoshi210.com:6969/announce
@@ -83,6 +84,7 @@ http://tracker.edoardocolombo.eu:6969/announce
 http://btfile.sdo.com:6961/announce
 http://bt.mp4ba.com:2710/announce
 https://tr.bangumi.moe:6969/announce
+http://tracker.ipv6tracker.org:80/announce
 http://pubt.net:2710/announce
 http://tracker.dler.org:6969/announce
 http://tracker.ktxp.com:6868/scrape
@@ -105,7 +107,6 @@ http://torrent.gresille.org:80/announce
 http://anisaishuu.de:2710/announce
 http://tracker.skyts.net:6969/announce
 http://tracker.grepler.com:6969/announce
-http://tracker4.itzmx.com:2710/announce
 http://173.254.204.71:1096/announce
 http://tracker.moeing.org:7070/announce
 http://bt.sc-ol.com:2710/announce
@@ -120,4 +121,5 @@ http://tracker.filetracker.pl:8089/announce
 http://5.79.83.193:2710/announce
 http://91.218.230.81:80/announce
 http://tracker.openbittorrent.com:80/announce
+http://qd.tracker.a-nime.cn:7173/announce
 http://tracker.torrenty.org:6969/announce
