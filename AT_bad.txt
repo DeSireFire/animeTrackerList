@@ -48,7 +48,6 @@ http://www.sukimad.com:2710/announce
 http://tracker.xfsub.com:6868/announce
 http://tracker.anime-miako.to:6969/announce
 http://tracker.kamigami.org:2710/announce
-http://pow7.com:80/announce
 http://nyaatorrents.info:3277/announce
 http://tracker.ex.ua:80/announce
 http://share.camoe.cn:8080/announce
@@ -81,9 +80,8 @@ http://bt.wiiyi.com:6969/announce
 http://tracker.edoardocolombo.eu:6969/announce
 http://btfile.sdo.com:6961/announce
 http://bt.mp4ba.com:2710/announce
-http://tracker.ipv6tracker.org:80/announce
+https://tr.bangumi.moe:6969/announce
 http://pubt.net:2710/announce
-http://tracker.dler.org:6969/announce
 http://tracker.ktxp.com:6868/scrape
 http://exodus.desync.com:6969/announce
 http://tracker.aletorrenty.pl:2710/announce
@@ -94,6 +92,7 @@ http://tracker.skyts.cc:6969/announce
 http://tracker.baravik.org:6970/announce
 http://t.acg.rip:6699/announce
 http://bigfoot1942.sektori.org:6969/announce
+http://open.acgtracker.com:1096/announce
 http://btfans.3322.org:6969/announce
 http://btfans.3322.org:8000/announce
 http://bt.dmzg.net:6969/announce
@@ -103,6 +102,7 @@ http://torrent.gresille.org:80/announce
 http://anisaishuu.de:2710/announce
 http://tracker.skyts.net:6969/announce
 http://tracker.grepler.com:6969/announce
+http://tracker4.itzmx.com:2710/announce
 http://173.254.204.71:1096/announce
 http://tracker.moeing.org:7070/announce
 http://bt.sc-ol.com:2710/announce
@@ -115,6 +115,7 @@ http://tracker.nwps.ws:6969/announce
 http://bt.ttk.artvid.ru:6969/announce
 http://tracker.filetracker.pl:8089/announce
 http://5.79.83.193:2710/announce
+http://91.218.230.81:80/announce
 http://tracker.openbittorrent.com:80/announce
 http://qd.tracker.a-nime.cn:7173/announce
 http://tracker.torrenty.org:6969/announce
