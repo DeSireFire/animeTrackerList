@@ -6,7 +6,6 @@ http://92.241.171.245:6969/announce
 http://ipv4.tracker.harry.lu:80/announce
 http://tracker.dm258.cn:7070/announce
 http://retracker.ohys.net:1096/announce
-http://opentracker.acgnx.com:6869/announce
 http://tracker.comicat.org:2015/announce
 http://tracker.pubt.net:2710/announce
 http://tracker.levelup.cn:8080/announce
@@ -25,6 +24,7 @@ http://95.68.246.30:80/announce
 http://tracker.tvunderground.org.ru:3218/announce
 http://61.154.116.205:8000/annonuce
 http://tracker.36dm.com:2710/announce
+http://tracker.internetwarriors.net:1337/announce
 http://tracker.tordb.ml:6881/announce
 http://retracker.adminko.org:80/announce
 http://208.67.16.113:8000/annonuce
@@ -65,8 +65,6 @@ http://87.248.186.252:8080/announce
 http://tracker.acg.gg:1578/announce
 udp://208.67.16.113:8000/announce
 http://tracker2.wasabii.com.tw:6969/announce
-https://tr.bangumi.moe:9696/announce
-http://tr.bangumi.moe:6969/announce
 http://btfans.3322.org:8080/announce
 http://tracker.vanitycore.co:6969/announce
 http://tracker1.wasabii.com.tw:6969/announce
@@ -80,6 +78,7 @@ http://bt.wiiyi.com:6969/announce
 http://tracker.edoardocolombo.eu:6969/announce
 http://btfile.sdo.com:6961/announce
 http://bt.mp4ba.com:2710/announce
+https://tr.bangumi.moe:6969/announce
 http://tracker.ipv6tracker.org:80/announce
 http://pubt.net:2710/announce
 http://exodus.desync.com:6969/announce
@@ -114,6 +113,7 @@ http://tracker.nwps.ws:6969/announce
 http://bt.ttk.artvid.ru:6969/announce
 http://tracker.filetracker.pl:8089/announce
 http://5.79.83.193:2710/announce
+http://91.218.230.81:80/announce
 http://tracker.openbittorrent.com:80/announce
 http://qd.tracker.a-nime.cn:7173/announce
 http://tracker.torrenty.org:6969/announce
