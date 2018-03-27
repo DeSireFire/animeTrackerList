@@ -8,6 +8,7 @@ http://ipv4.tracker.harry.lu:80/announce
 http://genesis.1337x.org:1337/announce
 http://tracker.dm258.cn:7070/announce
 http://retracker.ohys.net:1096/announce
+http://retracker.krs-ix.ru:80/announce
 http://tracker.comicat.org:2015/announce
 http://tracker.pubt.net:2710/announce
 http://tracker.levelup.cn:8080/announce
@@ -52,9 +53,7 @@ http://tracker.ktxp.com:7070/announce
 http://www.sukimad.com:2710/announce
 http://tracker.xfsub.com:6868/announce
 http://tracker.anime-miako.to:6969/announce
-http://tracker.kamigami.org:2710/announce
 http://torrent-downloads.to:5869/announce.php
-http://pow7.com:80/announce
 http://nyaatorrents.info:3277/announce
 http://tracker.ex.ua:80/announce
 http://share.camoe.cn:8080/announce
@@ -73,9 +72,10 @@ http://87.248.186.252:8080/announce
 http://tracker.acg.gg:1578/announce
 udp://208.67.16.113:8000/announce
 http://tracker2.wasabii.com.tw:6969/announce
-http://torrentsmd.com:8080/announce
+https://tr.bangumi.moe:9696/announce
 http://tr.bangumi.moe:6969/announce
 http://btfans.3322.org:8080/announce
+http://tracker4.infohash.org:80/announce
 http://tracker.vanitycore.co:6969/announce
 http://tracker1.wasabii.com.tw:6969/announce
 http://tracker.yoshi210.com:6969/announce
