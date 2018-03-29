@@ -3,6 +3,7 @@ http://torrent-download.to:5869/announce
 http://tracker.anirena.com:81/announce
 http://tracker.skyts.cn:6969/announce
 http://p4p.arenabg.com:1337/announce
+http://tracker1.infohash.org:80/announce
 http://92.241.171.245:6969/announce
 http://ipv4.tracker.harry.lu:80/announce
 http://genesis.1337x.org:1337/announce
@@ -72,8 +73,10 @@ http://87.248.186.252:8080/announce
 http://tracker.acg.gg:1578/announce
 udp://208.67.16.113:8000/announce
 http://tracker2.wasabii.com.tw:6969/announce
+https://tr.bangumi.moe:9696/announce
 http://tr.bangumi.moe:6969/announce
 http://btfans.3322.org:8080/announce
+http://tracker4.infohash.org:80/announce
 http://tracker.vanitycore.co:6969/announce
 http://tracker1.wasabii.com.tw:6969/announce
 http://tracker.yoshi210.com:6969/announce
@@ -88,7 +91,6 @@ http://tracker.edoardocolombo.eu:6969/announce
 http://btfile.sdo.com:6961/announce
 http://bt.mp4ba.com:2710/announce
 https://tr.bangumi.moe:6969/announce
-http://tracker.ipv6tracker.org:80/announce
 http://pubt.net:2710/announce
 http://denis.stalker.h3q.com:6969/announce
 http://9.rarbg.com:2710/announce
