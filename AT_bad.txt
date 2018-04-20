@@ -35,6 +35,7 @@ http://bt2.careland.com.cn:6969/announce
 http://server1.9sheng.cn:6969/announce
 http://bttrack.9you.com:8080/announce
 http://open.tracker.skyts.net:6969/announce
+http://tracker1.itzmx.com:8080/stats2920856887
 http://163.172.157.35:1337/announce
 http://tracker.torrent.to:2710/announce
 http://bt3.careland.com.cn:6969/announce
@@ -114,7 +115,6 @@ http://torrent.gresille.org:80/announce
 http://anisaishuu.de:2710/announce
 http://tracker.skyts.net:6969/announce
 http://tracker.grepler.com:6969/announce
-http://tracker4.itzmx.com:2710/announce
 http://denis.stalker.h3q.com:6969/announce.php
 http://173.254.204.71:1096/announce
 http://bt.sc-ol.com:2710/announce
@@ -129,4 +129,5 @@ http://open.miotracker.com:2015/announce
 http://tracker.filetracker.pl:8089/announce
 http://5.79.83.193:2710/announce
 http://tracker.openbittorrent.com:80/announce
+http://qd.tracker.a-nime.cn:7173/announce
 http://tracker.torrenty.org:6969/announce
