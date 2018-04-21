@@ -35,7 +35,6 @@ http://bt2.careland.com.cn:6969/announce
 http://server1.9sheng.cn:6969/announce
 http://bttrack.9you.com:8080/announce
 http://open.tracker.skyts.net:6969/announce
-http://tracker1.itzmx.com:8080/stats2920856887
 http://163.172.157.35:1337/announce
 http://tracker.torrent.to:2710/announce
 http://bt3.careland.com.cn:6969/announce
@@ -53,8 +52,8 @@ http://tracker.ktxp.com:7070/announce
 http://www.sukimad.com:2710/announce
 http://tracker.xfsub.com:6868/announce
 http://tracker.anime-miako.to:6969/announce
-http://tracker.kamigami.org:2710/announce
 http://torrent-downloads.to:5869/announce.php
+http://pow7.com:80/announce
 http://nyaatorrents.info:3277/announce
 http://tracker.ex.ua:80/announce
 http://share.camoe.cn:8080/announce
@@ -128,6 +127,7 @@ http://bt.ttk.artvid.ru:6969/announce
 http://open.miotracker.com:2015/announce
 http://tracker.filetracker.pl:8089/announce
 http://5.79.83.193:2710/announce
+http://91.218.230.81:80/announce
 http://tracker.openbittorrent.com:80/announce
 http://qd.tracker.a-nime.cn:7173/announce
 http://tracker.torrenty.org:6969/announce
