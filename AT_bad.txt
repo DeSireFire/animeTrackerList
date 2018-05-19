@@ -36,7 +36,6 @@ http://open.tracker.skyts.net:6969/announce
 http://163.172.157.35:1337/announce
 http://tracker.torrent.to:2710/announce
 http://tracker4.infohash.org:6969/announce
-http://tracker.acg.gg:2710/announce
 http://208.67.16.113:8000/announce
 http://p4p.arenabg.ch:1337/announce
 http://tracker.sukimad.com:3901/announce
@@ -65,11 +64,9 @@ http://tracker.dmguo.com:2710/announce
 http://www.36dm.com:2710/announce
 http://tracker.xelion.fr:6969/announce
 http://87.248.186.252:8080/announce
-http://tracker.acg.gg:1578/announce
 udp://208.67.16.113:8000/announce
 http://tracker2.wasabii.com.tw:6969/announce
 https://tr.bangumi.moe:9696/announce
-http://torrentsmd.com:8080/announce
 http://tr.bangumi.moe:6969/announce
 http://btfans.3322.org:8080/announce
 http://tracker.vanitycore.co:6969/announce
@@ -123,6 +120,7 @@ http://bt.ttk.artvid.ru:6969/announce
 http://open.miotracker.com:2015/announce
 http://tracker.filetracker.pl:8089/announce
 http://5.79.83.193:2710/announce
+http://91.218.230.81:80/announce
 http://tracker.openbittorrent.com:80/announce
 http://qd.tracker.a-nime.cn:7173/announce
 http://173.254.204.71:1096/announce
