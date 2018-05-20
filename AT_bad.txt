@@ -66,7 +66,6 @@ http://tracker.xelion.fr:6969/announce
 http://87.248.186.252:8080/announce
 udp://208.67.16.113:8000/announce
 http://tracker2.wasabii.com.tw:6969/announce
-https://tr.bangumi.moe:9696/announce
 http://tr.bangumi.moe:6969/announce
 http://btfans.3322.org:8080/announce
 http://tracker.vanitycore.co:6969/announce
@@ -88,9 +87,9 @@ http://denis.stalker.h3q.com:6969/announce
 http://9.rarbg.com:2710/announce
 http://exodus.desync.com:6969/announce
 http://tracker.aletorrenty.pl:2710/announce
+http://tracker1.infohash.org:6969/announce
 http://121.14.98.151:9090/announce
 http://www.ygdm.net:6969/announce
-http://tracker1.infohash.org:6969/announce
 http://tracker.baravik.org:6970/announce
 http://tracker.skyts.cc:6969/announce
 http://torrent-download.to:5869/announce.php
@@ -120,7 +119,6 @@ http://bt.ttk.artvid.ru:6969/announce
 http://open.miotracker.com:2015/announce
 http://tracker.filetracker.pl:8089/announce
 http://5.79.83.193:2710/announce
-http://91.218.230.81:80/announce
 http://tracker.openbittorrent.com:80/announce
 http://qd.tracker.a-nime.cn:7173/announce
 http://173.254.204.71:1096/announce
