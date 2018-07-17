@@ -66,6 +66,7 @@ http://87.248.186.252:8080/announce
 udp://208.67.16.113:8000/announce
 http://tracker2.wasabii.com.tw:6969/announce
 http://btfans.3322.org:8080/announce
+http://tracker4.infohash.org:80/announce
 http://tracker.vanitycore.co:6969/announce
 http://tracker1.wasabii.com.tw:6969/announce
 http://tracker.yoshi210.com:6969/announce
@@ -78,6 +79,7 @@ http://bt.wiiyi.com:6969/announce
 http://bt.popgo.net:7456/announce
 http://tracker.edoardocolombo.eu:6969/announce
 http://btfile.sdo.com:6961/announce
+http://tracker.ipv6tracker.org:80/announce
 http://pubt.net:2710/announce
 http://denis.stalker.h3q.com:6969/announce
 http://9.rarbg.com:2710/announce
