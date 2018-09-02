@@ -3,11 +3,11 @@ http://91.218.230.81:6969/announce
 http://denis.stalker.h3q.com:6969/announce
 http://tracker.kisssub.org:2015/announce
 http://tracker.anirena.com:81/announce
-http://agusiq-torrents.pl:6969/announce
 http://tracker.filetracker.pl:8089/announce
 http://torrent-download.to:5869/announce
 udp://208.67.16.113:8000/announce
 http://retracker.adminko.org:80/announce
+http://tracker4.infohash.org:80/announce
 http://tracker4.infohash.org:6969/announce
 http://tracker.tiny-vps.com:6969/announce
 http://tracker.dmcomic.org:2710/announce
@@ -16,7 +16,6 @@ http://tracker.kicks-ass.net:80/announce
 http://tracker.dmhy.org:8000/announce
 http://tracker.xfsub.com:6868/announce
 http://bt1.the9.com:6969/announce
-http://tracker4.itzmx.com:2710/announce
 http://btfans.3322.org:6969/announce
 http://tracker.anime-miako.to:6969/announce
 http://tracker.ktxp.com:6868/announce
@@ -99,6 +98,7 @@ http://tracker.sukimad.com:3901/announce
 http://bt.wiiyi.com:6969/announce
 http://tracker.skyts.net:6969/announce
 http://bt2.careland.com.cn:6969/announce
+http://tracker.internetwarriors.net:1337/announce
 http://mgtracker.org:6969/announce
 http://tracker.torrent.to:2710/announce
 https://tr.bangumi.moe:6969/announce
