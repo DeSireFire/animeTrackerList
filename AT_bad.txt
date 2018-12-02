@@ -11,7 +11,6 @@ http://tracker.xelion.fr:6969/announce
 http://tracker.torrenty.org:6969/announce
 http://tracker.torrent.to:2710/announce
 http://tracker.tricitytorrents.com:2710/announce
-http://91.218.230.81:80/announce
 http://bt.sumisora.com:2710/announce
 http://tracker.dmcomic.org:2710/announce
 http://tracker.xfsub.com:7070/announce
@@ -32,6 +31,7 @@ http://bigtorrent.org:2710/announce
 http://torrent-download.to:5869/announce
 http://bt.sc-ol.com:2710/announce
 http://tracker.tvunderground.org.ru:3218/announce
+http://torrentsmd.com:8080/announce
 http://btfile.sdo.com:6961/announce
 http://www.wareztorrent.com:6969/announce
 http://tracker.dm258.cn:6868/announce
@@ -63,7 +63,6 @@ http://121.14.98.151:9090/announce
 http://tr.cili001.com:6666/announce
 http://bt.wiiyi.com:6969/announce
 http://thomas.myftp.biz:6969/announce
-http://bt.edwardk.info:6969/announce
 http://torrentsmd.com:6969/announce
 http://miriamyeung.com.tw:6969/announce
 http://tracker.saiyaman.info:7979/announce
@@ -91,6 +90,7 @@ http://bt.mp4ba.com:2710/announce
 http://91.218.230.81:6969/announce
 http://tracker.tiny-vps.com:6969/announce
 http://tracker.glotorrents.com:6969/announce
+http://tracker1.infohash.org:80/announce
 http://bt3.careland.com.cn:6969/announce
 http://tr.bangumi.moe:6969/announce
 http://119.28.13.252:6969/
