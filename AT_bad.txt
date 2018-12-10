@@ -11,7 +11,6 @@ http://tracker.xelion.fr:6969/announce
 http://tracker.torrenty.org:6969/announce
 http://tracker.torrent.to:2710/announce
 http://tracker.tricitytorrents.com:2710/announce
-http://91.218.230.81:80/announce
 http://bt.sumisora.com:2710/announce
 http://tracker.dmcomic.org:2710/announce
 http://tracker.xfsub.com:7070/announce
@@ -56,7 +55,6 @@ http://tracker.openbittorrent.com:80/announce
 https://t.acg.rip:6699/announce
 http://t2.popgo.org:7456/annonce
 http://bigfoot1942.sektori.org:6969/announce
-http://tracker.haretahoo.science:2710/announce
 http://tracker.dm258.cn:2710/announce
 http://server1.9sheng.cn:6969/announce
 http://208.67.16.113:8000/announce
@@ -69,14 +67,15 @@ http://miriamyeung.com.tw:6969/announce
 http://tracker.saiyaman.info:7979/announce
 http://tracker.dmguo.com:2710/announce
 http://tracker.xfsub.com:2710/announce
-http://tracker.ipv6tracker.org:80/announce
 http://bt1.the9.com:6969/announce
 http://open.tracker.skyts.net:6969/announce
+https://tr.bangumi.moe:9696/announce
 http://nyaatorrents.info:7266/announce
 http://tracker.kisssub.org:2015/announce
 http://share.camoe.cn:8080/announce
 http://genesis.1337x.org:1337/announce
 http://tracker.kamigami.org:2710/announce
+http://t.acg.rip:6699/announce
 udp://208.67.16.113:8000/announce
 http://tracker.dm258.cn:7070/announce
 http://bt.popgo.net:7456/announce
