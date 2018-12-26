@@ -48,6 +48,7 @@ http://anisaishuu.de:2710/announce
 http://bt.ttk.artvid.ru:6969/announce
 http://tracker.anime-miako.to:6969/announce
 http://tracker4.infohash.org:6969/announce
+http://tracker4.itzmx.com:2710/announce
 http://tracker.skyts.cn:6969/announce
 http://pubt.net:2710/announce
 http://tracker.openbittorrent.com:80/announce
@@ -63,7 +64,9 @@ http://bt.wiiyi.com:6969/announce
 http://thomas.myftp.biz:6969/announce
 http://torrentsmd.com:6969/announce
 http://miriamyeung.com.tw:6969/announce
+http://tracker.frozen-layer.net:6969/announce
 http://tracker.saiyaman.info:7979/announce
+http://tracker4.infohash.org:80/announce
 http://tracker.dmguo.com:2710/announce
 http://tracker.xfsub.com:2710/announce
 http://tracker.ipv6tracker.org:80/announce
@@ -74,6 +77,7 @@ http://tracker.kisssub.org:2015/announce
 http://share.camoe.cn:8080/announce
 http://genesis.1337x.org:1337/announce
 http://tracker.kamigami.org:2710/announce
+http://t.acg.rip:6699/announce
 udp://208.67.16.113:8000/announce
 http://tracker.dm258.cn:7070/announce
 http://bt.popgo.net:7456/announce
