@@ -11,6 +11,7 @@ http://tracker.xelion.fr:6969/announce
 http://tracker.torrenty.org:6969/announce
 http://tracker.torrent.to:2710/announce
 http://tracker.tricitytorrents.com:2710/announce
+http://91.218.230.81:80/announce
 http://bt.sumisora.com:2710/announce
 http://tracker.dmcomic.org:2710/announce
 http://tracker.xfsub.com:7070/announce
@@ -70,10 +71,12 @@ http://tracker.xfsub.com:2710/announce
 http://tracker.ipv6tracker.org:80/announce
 http://bt1.the9.com:6969/announce
 http://open.tracker.skyts.net:6969/announce
+https://tr.bangumi.moe:9696/announce
 http://nyaatorrents.info:7266/announce
 http://tracker.kisssub.org:2015/announce
 http://share.camoe.cn:8080/announce
 http://genesis.1337x.org:1337/announce
+http://tracker.kamigami.org:2710/announce
 http://t.acg.rip:6699/announce
 udp://208.67.16.113:8000/announce
 http://tracker.dm258.cn:7070/announce
@@ -110,6 +113,7 @@ http://tracker.ktxp.org:6868/announce
 http://denis.stalker.h3q.com:6969/announce.php
 http://9.rarbg.com:2710/announce
 http://mgtracker.org:2710/announce
+http://tracker1.itzmx.com:8080/announce
 http://tracker.ygdm.net:8080/announce
 http://119.28.13.252:6969/announce
 http://btfans.3322.org:8000/announce
