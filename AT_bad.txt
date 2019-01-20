@@ -57,6 +57,7 @@ http://tracker.openbittorrent.com:80/announce
 https://t.acg.rip:6699/announce
 http://bigfoot1942.sektori.org:6969/announce
 http://t2.popgo.org:7456/annonce
+http://tracker.haretahoo.science:2710/announce
 http://tracker.dm258.cn:2710/announce
 http://server1.9sheng.cn:6969/announce
 http://208.67.16.113:8000/announce
@@ -78,6 +79,7 @@ http://tracker.kisssub.org:2015/announce
 http://share.camoe.cn:8080/announce
 http://genesis.1337x.org:1337/announce
 http://tracker.kamigami.org:2710/announce
+http://t.acg.rip:6699/announce
 udp://208.67.16.113:8000/announce
 http://tracker.dm258.cn:7070/announce
 http://bt.popgo.net:7456/announce
