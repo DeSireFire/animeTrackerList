@@ -31,7 +31,6 @@ http://bigtorrent.org:2710/announce
 http://torrent-download.to:5869/announce
 http://bt.sc-ol.com:2710/announce
 http://tracker.tvunderground.org.ru:3218/announce
-http://torrentsmd.com:8080/announce
 http://btfile.sdo.com:6961/announce
 http://torrent-downloads.to:5869/announce
 http://tracker.dm258.cn:6868/announce
@@ -45,7 +44,6 @@ http://173.254.204.71:1096/announce
 http://tracker.levelup.cn:8080/announce
 http://tracker.sukimad.com:3901/announce
 http://t.wahaha.work:6699/announce
-http://tracker.opentrackr.org:1337/announce
 http://tracker.ktxp.org:7070/announce
 http://anisaishuu.de:2710/announce
 http://bt.ttk.artvid.ru:6969/announce
@@ -66,10 +64,10 @@ http://121.14.98.151:9090/announce
 http://tr.cili001.com:6666/announce
 http://bt.wiiyi.com:6969/announce
 http://thomas.myftp.biz:6969/announce
-http://bt.edwardk.info:6969/announce
 http://torrentsmd.com:6969/announce
 http://miriamyeung.com.tw:6969/announce
 http://tracker.saiyaman.info:7979/announce
+http://tracker4.infohash.org:80/announce
 http://tracker.dmguo.com:2710/announce
 http://tracker.xfsub.com:2710/announce
 http://tracker.ipv6tracker.org:80/announce
@@ -95,7 +93,6 @@ http://bt.mp4ba.com:2710/announce
 http://91.218.230.81:6969/announce
 http://tracker.tiny-vps.com:6969/announce
 http://tracker.glotorrents.com:6969/announce
-http://tracker1.infohash.org:80/announce
 http://bt3.careland.com.cn:6969/announce
 http://tr.bangumi.moe:6969/announce
 http://119.28.13.252:6969/
