@@ -4,6 +4,7 @@ http://retracker.telecom.by:80/announce
 http://37.19.5.139:6969/announce
 http://173.254.204.71:1096/announce
 http://nyaatorrents.info:7266/announce
+http://tr.bangumi.moe:6969/announce
 http://www.tlv.cc:7777/announce
 http://163.172.81.35:1337/announce
 http://tracker.calculate.ru:6969/announce
@@ -17,6 +18,7 @@ http://tracker.anirena.com:6969/announce
 http://retracker.ohys.net:80/announce
 http://tracker.kuroy.me:5944/announce
 http://tracker.dm258.cn:7070/announce
+https://tr.bangumi.moe:6969/announce
 http://tracker.grepler.com:6969/announce
 http://henbt.com:2710/announce
 http://torrent-downloads.to:5869/announce
@@ -46,7 +48,6 @@ http://retracker.gorcomnet.ru:80/announce
 http://bt.cnscg.org:6969/announce
 http://bt.henbt.com:2710/announce
 http://64.78.163.242:2710/announce
-http://tracker.torrentyorg.pl:80/announce
 http://208.67.16.113:8000/announce
 http://tracker.kicks-ass.net:80/announce
 http://retracker.adminko.org:80/announce
@@ -57,7 +58,6 @@ http://tracker.anime-miako.to:6969/announce
 http://tracker.yoshi210.com:6969/announce
 http://tracker.torrent.to:2710/announce
 http://.camoe.cn:8080/announce
-http://tracker.electro-torrent.pl:80/announce
 http://182.190.4.38:6969/announce
 http://inferno.demonoid.ooo:3412/announce
 http://tracker.mg64.net:6881/announce
@@ -139,7 +139,6 @@ http://thomas.myftp.biz:6969/announce
 http://80.246.243.18:6969/announce
 http://torrent-download.to:5869/announce
 http://tracker.36dm.com:2710/announce
-http://bt.edwardk.info:6969/announce
 http://158.69.146.212:7777/announce
 http://91.218.230.81:6969/announce
 http://torrentsmd.me:8080/announce
@@ -151,7 +150,6 @@ http://133.130.108.127:6969/announce
 http://tracker.edoardocolombo.eu:6969/announce
 http://commiesubs.com:7266/announce
 http://bt.popgo.net:7456/announce
-http://tr.cili001.com:8070/announce
 http://45.33.104.104:8080/announce
 http://tracker.ipv6tracker.org:80/announce
 http://5.79.83.193:2710/announce
