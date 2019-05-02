@@ -4,7 +4,6 @@ http://retracker.telecom.by:80/announce
 http://37.19.5.139:6969/announce
 http://173.254.204.71:1096/announce
 http://nyaatorrents.info:7266/announce
-http://tr.bangumi.moe:6969/announce
 http://www.tlv.cc:7777/announce
 http://163.172.81.35:1337/announce
 http://tracker.calculate.ru:6969/announce
@@ -12,7 +11,6 @@ http://mgtracker.org:6969/announce
 http://tracker.dler.org:6969/announce
 http://ipv4.tracker.harry.lu:80/annouce
 http://p4p.arenabg.com:1337/announce
-https://t.bitlove.org:443/announce
 http://tracker.vanitycore.co:6969/announce
 http://inferno.demonoid.com:3413/announce
 http://tracker.anirena.com:6969/announce
@@ -27,7 +25,6 @@ http://share.camoe.cn:8080/announce
 http://tracker.swateam.org.uk:2710/announce
 http://123.249.16.65:6961/announce
 http://tracker.comicat.org:80/announce
-http://tracker4.itzmx.com:2710/announce
 http://198.251.81.243:8080/announce
 http://skyland.sytes.net:6969/announce
 http://tracker.dutchtracking.nl:80/announce
@@ -45,10 +42,12 @@ http://agusiq-torrents.pl:6969/announce
 http://tracker1.xku.tv:6969/announce
 http://210.244.71.26:6969/announce
 http://tracker.aletorrenty.pl:2710/announce
+http://t.nyaatracker.com:80/announce
 http://retracker.gorcomnet.ru:80/announce
 http://bt.cnscg.org:6969/announce
 http://bt.henbt.com:2710/announce
 http://64.78.163.242:2710/announce
+http://tracker.torrentyorg.pl:80/announce
 http://208.67.16.113:8000/announce
 http://tracker.kicks-ass.net:80/announce
 http://retracker.adminko.org:80/announce
@@ -152,13 +151,13 @@ http://133.130.108.127:6969/announce
 http://tracker.edoardocolombo.eu:6969/announce
 http://commiesubs.com:7266/announce
 http://bt.popgo.net:7456/announce
+http://tr.cili001.com:8070/announce
 http://45.33.104.104:8080/announce
 http://5.79.83.193:2710/announce
 http://tracker.city9x.com:2710/announce
 http://wahaha.work:6699/announce
 http://tracker1.itzmx.com:6961/announce
 http://213.159.215.198:6970/announce
-https://tr.bangumi.moe:9696/announce
 http://tracker.tvunderground.org.ru:3218/announce
 http://tracker.dmcomic.org:2710/announce
 http://bt.sumisora.com:2710/announce
@@ -168,7 +167,6 @@ http://leopard.raws.ws:6969/announce
 http://tracker.coppersurfer.tk:6969/announce
 http://95.68.246.30:80/announce
 http://pt.lax.mx:80/announce
-http://tracker.internetwarriors.net:1337/announce
 http://shadowshq.yi.org:6969/announce.php
 http://5.79.83.194:6881/announce
 http://tracker1.wasabii.com.tw:6969/announce
