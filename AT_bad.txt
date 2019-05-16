@@ -7,6 +7,7 @@ http://tracker2.wasabii.com.tw:6969/announce
 http://tracker1.xku.tv:6969/announce
 http://tracker.anirena.com:6969/announce
 http://104.238.198.186:8000/announce
+http://123.249.16.65:6961/announce
 http://retracker.mgts.by:80/announce
 http://tracker.publicbt.com:80/announce
 http://51.15.60.191:1337/announce
@@ -113,8 +114,6 @@ http://5.79.83.194:6969/announce
 http://173.254.204.71:1096/announce
 http://torrent-download.to:5869/announce.php
 http://share.camoe.cn:8080/announce
-http://tracker.x4w.co:6969/announceUDP
-http://tr.bangumi.moe:6969/announce
 http://www.tlv.cc:7777/announce
 http://retracker.omsk.ru:2710/announce
 http://alpha.torrenttracker.nl:443/announce
@@ -136,9 +135,11 @@ http://exodus.desync.com:6969/announce
 http://pubt.net:2710/announce
 http://213.184.225.53:80/announce
 https://bigfoot1942.sektori.org:443/announce
+http://tr.cili001.com:8070/announce
 http://www.skyts.net:6969/announce
 http://208.67.16.113:8000/announce
 wss://212.71.251.70:443/announce
+http://tracker.torrentyorg.pl:80/announce
 http://45.33.104.104:8080/announce
 http://82.209.230.66:80/announce
 http://torrentsmd.me:8080/announce
@@ -158,7 +159,7 @@ http://inferno.demonoid.ooo:3416/announce
 http://68.64.165.106:2710/announce
 http://bt.ttk.artvid.ru:6969/announce
 http://tor.reyesleon.xyz:443/announce
-https://54.210.226.206:443/announce
+http://bt.dl1234.com:80/announce
 http://www.36dm.com:2710/announce
 http://tracker.comicat.org:2015/announce
 http://77.106.108.90:2710/announce
