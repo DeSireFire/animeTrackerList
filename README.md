@@ -5,15 +5,15 @@
 还在为下载XX神社、爱X幕等等动漫资源即使加入trackerslist也没有速度而犯愁吗？  
 这里的Trackers将更有对二次元资源下载加速的针对性。
 
-#### 更新时间（Updated）: 2019-05-17 00:02:41 
+#### 更新时间（Updated）: 2019-05-18 00:02:39 
 该项目还在运行测试阶段
 * AT_best(更新 25 个跟踪器): https://raw.githubusercontent.com/DeSireFire/animeTrackerList/master/AT_best.txt 
-* AT_all(更新 121 个跟踪器): https://raw.githubusercontent.com/DeSireFire/animeTrackerList/master/AT_all.txt 
+* AT_all(更新 119 个跟踪器): https://raw.githubusercontent.com/DeSireFire/animeTrackerList/master/AT_all.txt 
 * AT_all_udp(更新 1 个跟踪器): https://raw.githubusercontent.com/DeSireFire/animeTrackerList/master/AT_all_udp.txt 
-* AT_all_http(更新 109 个跟踪器): https://raw.githubusercontent.com/DeSireFire/animeTrackerList/master/AT_all_http.txt 
+* AT_all_http(更新 110 个跟踪器): https://raw.githubusercontent.com/DeSireFire/animeTrackerList/master/AT_all_http.txt 
 * AT_all_https(更新 14 个跟踪器): https://raw.githubusercontent.com/DeSireFire/animeTrackerList/master/AT_all_https.txt 
 * AT_all_ws(更新 1 个跟踪器): https://raw.githubusercontent.com/DeSireFire/animeTrackerList/master/AT_all_ws.txt 
-* AT_best_ip(更新 6 个跟踪器): https://raw.githubusercontent.com/DeSireFire/animeTrackerList/master/AT_best_ip.txt 
+* AT_best_ip(更新 7 个跟踪器): https://raw.githubusercontent.com/DeSireFire/animeTrackerList/master/AT_best_ip.txt 
 * AT_all_ip(更新 14 个跟踪器): https://raw.githubusercontent.com/DeSireFire/animeTrackerList/master/AT_all_ip.txt 
 * AT_bad(更新 165 个跟踪器): https://raw.githubusercontent.com/DeSireFire/animeTrackerList/master/AT_bad.txt 
 
