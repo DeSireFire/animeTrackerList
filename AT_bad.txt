@@ -16,7 +16,6 @@ http://83.234.146.252:6969/announce
 http://163.172.140.46:6969/announce
 http://bluraycd.wicp.net:2710/announce
 http://tracker.city9x.com:2710/scrape
-http://tracker.anirena.com:80/announce
 http://wahaha.work:6699/announce
 http://torrent-download.to:5869/announce
 http://68.64.165.106:1578/announce
@@ -27,16 +26,14 @@ http://tracker.devil-torrents.pl:80/announce
 http://t.acg.rip:6699/announce
 http://tracker.36dm.com:2710/announce
 http://tracker.openbittorrent.com:80/announce
+udp://tracker3.itzmx.com:6961/announce
 http://tracker.coppersurfer.tk:6969/announce
 http://bt.wiiyi.com:6969/announce
 http://87.248.186.252:8080/announce
 http://45.33.104.104:6699/announce
-http://tracker4.itzmx.com:2710/announce
 http://tracker.xku.tv:6969/announce
 http://bt.sc-ol.com:2710/announce
 http://tracker.filetracker.pl:8089/announce
-http://tracker.electro-torrent.pl:80/announce
-http://tracker.frozen-layer.net:6969/announce
 http://tracker.swateam.org.uk:2710/announce
 http://anisaishuu.de:2710/announce
 http://bt1.the9.com:6969/announce
@@ -103,6 +100,7 @@ http://185.217.0.76:80/announce
 http://5.79.83.194:6881/announce
 http://5.79.83.193:2710/announce
 http://178.62.249.139:80/announce
+http://62.210.202.61:80/announce
 http://tracker.kuroy.me:5944/announce
 http://inferno.demonoid.ooo:3412/announce
 ws://195.20.52.26:2710/announce
@@ -140,6 +138,7 @@ http://tr.cili001.com:8070/announce
 http://www.skyts.net:6969/announce
 http://208.67.16.113:8000/announce
 wss://212.71.251.70:443/announce
+http://tracker.torrentyorg.pl:80/announce
 http://45.33.104.104:8080/announce
 http://82.209.230.66:80/announce
 http://torrentsmd.me:8080/announce
@@ -159,7 +158,6 @@ http://inferno.demonoid.ooo:3416/announce
 http://68.64.165.106:2710/announce
 http://bt.ttk.artvid.ru:6969/announce
 http://tor.reyesleon.xyz:443/announce
-http://bt.dl1234.com:80/announce
 http://www.36dm.com:2710/announce
 http://tracker.comicat.org:2015/announce
 http://77.106.108.90:2710/announce
