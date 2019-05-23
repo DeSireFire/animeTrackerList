@@ -17,11 +17,11 @@ http://83.234.146.252:6969/announce
 http://163.172.140.46:6969/announce
 http://bluraycd.wicp.net:2710/announce
 http://tracker.city9x.com:2710/scrape
+http://tracker.anirena.com:80/announce
 http://wahaha.work:6699/announce
 http://torrent-download.to:5869/announce
 http://68.64.165.106:1578/announce
 http://bt2.careland.com.cn:6969/announce
-http://agusiq-torrents.pl:6969/announce
 http://51.15.4.13:1337/announce
 http://tracker.devil-torrents.pl:80/announce
 http://t.acg.rip:6699/announce
@@ -40,6 +40,7 @@ http://anisaishuu.de:2710/announce
 http://bt1.the9.com:6969/announce
 http://tracker.kisssub.org:2015/announce
 http://182.190.4.52:6969/announce
+https://t.bitlove.org:443/announce
 http://210.244.71.25:6969/announce
 http://acg.rip:6699/announce
 dp://p4p.arenabg.ch:1337/announce
@@ -103,7 +104,6 @@ http://5.79.83.193:2710/announce
 http://178.62.249.139:80/announce
 http://62.210.202.61:80/announce
 http://tracker.kuroy.me:5944/announce
-http://torrent.nwps.ws:80/announce
 http://inferno.demonoid.ooo:3412/announce
 ws://195.20.52.26:2710/announce
 http://tracker.acg.gg:1578/announce
