@@ -5,6 +5,7 @@ http://45.33.104.104:8080/announce
 http://64.78.163.242:2710/announce
 http://torrent-download.to:5869/announce.php
 http://inferno.demonoid.com:3413/announce
+http://tracker.city9x.com:2710/scrape
 http://121.14.98.151:9090/announce
 http://61.154.116.205:8000/announce
 http://mgtracker.org:6969/announce
@@ -73,6 +74,8 @@ http://genesis.1337x.org:1337/announce
 http://tracker.saiyaman.info:7979/announce
 http://9.rarbg.com:2710/announce
 http://wahaha.work:6699/announce
+https://bigfoot1942.sektori.org:443/announce
+https://tr.bangumi.moe:6969/announce
 http://inferno.demonoid.ooo:3395/announce
 http://77.106.108.90:2710/announce
 http://tracker.baravik.org:6970/announce
@@ -107,13 +110,12 @@ http://tracker.levelup.cn:8080/announce
 http://tracker1.wasabii.com.tw:6969/announce
 http://torrent-download.to:5869/announce
 http://5.79.83.194:6969/announce
+http://tracker.open-tracker.org:1337/announce
 http://bttrack.9you.com:8080/announce
 http://0d.kebhana.mx:443/announce
 http://bittracker.ru:80/announce
 http://bt.ktkj.com:8080/announce
 http://tracker.ktxp.org:7070/announce
-http://tracker.electro-torrent.pl:80/announce
-http://amigacity.xyz:6969/announce
 http://208.67.16.113:8000/annonuce
 http://henbt.com:2710/announce
 http://tracker.grepler.com:6969/announce
@@ -129,11 +131,11 @@ http://inferno.demonoid.ooo:3416/announce
 http://tracker.kamigami.org:2710/announce
 http://tracker.openbittorrent.com:80/announce
 http://alpha.torrenttracker.nl:443/announce
-http://bt.pusacg.org:8080/announce
 http://82.209.230.66:80/announce
+http://bt.pusacg.org:8080/announce
 http://pubt.net:2710/announce
-http://tracker.tlm-project.org:6969/announce
 http://open.tracker.skyts.net:6969/announce
+http://tracker.tlm-project.org:6969/announce
 http://anisaishuu.de:2710/announce
 http://tracker.dler.org:6969/announce
 http://tracker.anirena.com:81/announce
@@ -180,7 +182,6 @@ http://tracker.acg.gg:1578/announce
 http://tracker.moxing.party:6969/announce
 http://tracker.xfsub.com:9999/announce
 http://tracker.animeun.com:6969/announce
-http://91.217.91.21:3218/announce
 http://node.611.to:9000/announce
 http://inferno.demonoid.ph:3392/announce
 http://leopard.raws.ws:6969/announce
@@ -193,7 +194,6 @@ http://46.4.109.148:6969/announce
 http://tr.cili001.com:6666/announce
 udp://tracker.internetwarriors.net:1337/announce
 http://bt.henbt.com:2710/announce
-http://188.68.224.156:6969/announce
 http://tracker.kisssub.org:2015/announce
 http://tracker.tvunderground.org.ru:3218/announce
 http://tracker.acg.gg:2710/announce
@@ -204,11 +204,11 @@ http://bt2.careland.com.cn:6969/announce
 http://tracker.torrent.to:2710/announce
 http://163.172.81.35:1337/announce
 http://51.15.4.13:1337/announce
+http://tracker.frozen-layer.net:6969/announce
 http://tracker.publicbt.com:80/announce
 http://tracker2.wasabii.com.tw:6969/announce
 http://tk3.5qzone.net:8080/
 http://cthulhu.regne.net:6969/announce
-http://tr.bangumi.moe:6969/announce
 http://fxtt.ru:80/announce
 http://87.248.186.252:8080/announce
 http://grifon.info:80/announce
@@ -223,4 +223,3 @@ http://tracker.dmcomic.com:2710/announce
 http://tracker.torrentyorg.pl:80/announce
 http://62.210.177.88:1096/announce
 http://123.249.16.65:6961/announce
-http://tracker4.itzmx.com:2710/announce
