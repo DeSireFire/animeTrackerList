@@ -32,8 +32,60 @@
 * 跟踪器按流行度和延迟（从最佳到最差）排序。
 * 少数客户支持WebSocket跟踪器（AKA WebTorrent，ws，wss）。查看有关信息[More info](https://raw.githubusercontent.com/DeSireFire/animeTrackerList/master/AT_all_ws.txt)
 
-##### api
-(不知道有没有必要..)
+##### 简单使用说明
+
+使用方法具体，大致分为两大类：
+
+* 自己拼接磁性链接的tracker
+
+磁链格式：magnet:?xt=urn:btih:{ 下载资源的hash值 }&dn={ 资源名称，此处可留空 }&tr={ 资源跟踪器（tracker） }&tr={ 资源跟踪器（tracker） }.....  
+
+使用项目中 AT_best.txt 等等 文本url中的 tracker 来构造自己的磁性链接。  
+
+举例:
+
+打开项目中的 AT_best.txt 文本链接，得到以下跟踪器：
+
+http://exodus.desync.com/announce
+http://mkfs.ru/announce
+https://1337.abcvg.info/announce
+http://0123456789nonexistent.com/announce
+http://tracker.kisssub.org/announce
+http://pt.lax.mx/announce
+http://tr.bangumi.moe/announce
+http://tracker.acgnx.se/announce
+http://tracker.tfile.co/announce
+https://open.kickasstracker.com/announce
+http://tracker.tfile.me/announce.php
+http://tracker.trackerfix.com/announce
+http://ehtracker.org/1226599/1080494xo5eXcwFOBq/announce
+http://peersteers.org/announce
+http://tracker.btcake.com/announce
+https://tracker.fastdownload.xyz/announce
+http://ehtracker.org/1113709/announce
+http://t1.pow7.com/announce
+http://tracker.baka-sub.cf/announce
+http://tracker.bittorrent.am/announce.php
+http://atrack.pow7.com/announce
+http://torrent.nwps.ws/announce
+http://tracker.shuim.net/announce.php
+http://denis.stalker.h3q.com/announce.php
+http://tracker.tfile.me/announce
+
+根据磁性链接的格式，构造出新磁性链接即可  
+magnet:?xt=urn:btih:Z7ZDIYEBZHIKE7MOZJQKLYVHWX5SEKMH&dn=喵喵喵&tr=http://exodus.desync.com/announce&tr=http://mkfs.ru/announce&tr=https://1337.abcvg.info/announce&tr=....等等等（多个tacker,即&tr={ 资源跟踪器（tracker） }，无上限..）
+
+最后，把构造好磁性链接复制下来，给下载器使用就行，就不赘述了。
+
+* 使用的BT下载工具：  
+
+得看具体是使用什么BT下载器，以Bitcomet为例：
+
+在Bitcomet软件里添加下载任务时弹出的任务属性里（也可以右键选择属性），选择“高级设置”选项卡，在服务器列表里添加Tracker服务器地址。
+
+将https://raw.githubusercontent.com/DeSireFire/animeTrackerList/master/AT_all.txt 等 文件url里的内容粘贴上去即可。
+
+![image](https://user-images.githubusercontent.com/18726905/60825706-dc290c00-a1de-11e9-9098-4cb1ccb42f19.png)
 
 ##### 提供支持&联系我
 * 你有希望增加的收集对象站点? => [Open a new issue](https://github.com/DeSireFire/animeTrackerList/issues/new)
