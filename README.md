@@ -100,6 +100,7 @@ magnet:?xt=urn:btih:Z7ZDIYEBZHIKE7MOZJQKLYVHWX5SEKMH&dn=喵喵喵&tr=http://exod
 * ~~解决网站挂了，造成阻塞~~  
 
 ##### 升级日志
+* 更新频率改为正午和凌晨0点两次
 * 缩短BT种子测试时间,修复去重时出现的错误
 * 解决animeTrackers_all_ip内存冗余问题，解决set去重导致顺序混乱的问题
 * 修改readme文件,报错问题，查明原因 http://bt.acg.gg  这网站挂了，造成阻塞。添加遇阻跳过的功能。
