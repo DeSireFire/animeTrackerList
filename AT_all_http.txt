@@ -189,3 +189,6 @@ http://rotracker.ohys.net/announce
 http://tracker.xfapi.top:9999/announce
 http://torrentclub.tech:6969/announce
 http://tracker.xfapi.top:6868/announce
+http://0123456789nonexistent.com/announce
+http://tracker.ipv6tracker.org:80/announce
+http://0123456789nonexistent.com:80/announce
