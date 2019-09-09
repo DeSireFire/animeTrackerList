@@ -38,14 +38,15 @@
 
 * 自己拼接磁性链接的tracker
 
-磁链格式：magnet:?xt=urn:btih:{ 下载资源的hash值 }&dn={ 资源名称，此处可留空 }&tr={ 资源跟踪器（tracker） }&tr={ 资源跟踪器（tracker） }.....  
+磁链格式：
+> magnet:?xt=urn:btih:{ 下载资源的hash值 }&dn={ 资源名称，此处可留空 }&tr={ 资源跟踪器（tracker） }&tr={ 资源跟踪器（tracker） }.....  
 
 使用项目中 AT_best.txt 等等 文本url中的 tracker 来构造自己的磁性链接。  
 
 举例:
 
 打开项目中的 AT_best.txt 文本链接，得到以下跟踪器：
-
+```bash
 http://exodus.desync.com/announce
 http://mkfs.ru/announce
 https://1337.abcvg.info/announce
@@ -71,9 +72,12 @@ http://torrent.nwps.ws/announce
 http://tracker.shuim.net/announce.php
 http://denis.stalker.h3q.com/announce.php
 http://tracker.tfile.me/announce
-
+```
 根据磁性链接的格式，构造出新磁性链接即可  
-magnet:?xt=urn:btih:Z7ZDIYEBZHIKE7MOZJQKLYVHWX5SEKMH&dn=喵喵喵&tr=http://exodus.desync.com/announce&tr=http://mkfs.ru/announce&tr=https://1337.abcvg.info/announce&tr=....等等等（多个tacker,即&tr={ 资源跟踪器（tracker） }，无上限..）
+> magnet:?xt=urn:btih:Z7ZDIYEBZHIKE7MOZJQKLYVHWX5SEKMH&dn=喵喵喵&tr=http://exodus.desync.com/announce&tr=http://mkfs.ru/announce&tr=https://1337.abcvg.info/announce&tr=....
+
+等等等（多个tacker,即&tr={ 资源跟踪器（tracker） }，无上限..）
+
 
 最后，把构造好磁性链接复制下来，给下载器使用就行，就不赘述了。
 
@@ -100,6 +104,7 @@ magnet:?xt=urn:btih:Z7ZDIYEBZHIKE7MOZJQKLYVHWX5SEKMH&dn=喵喵喵&tr=http://exod
 * ~~解决网站挂了，造成阻塞~~  
 
 ##### 升级日志
+* 整理一下readme的排版
 * 更新频率改为正午和凌晨0点两次
 * 缩短BT种子测试时间,修复去重时出现的错误
 * 解决animeTrackers_all_ip内存冗余问题，解决set去重导致顺序混乱的问题
