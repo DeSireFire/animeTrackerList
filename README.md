@@ -38,6 +38,9 @@
 
 * 自己拼接磁性链接的tracker
 
+<details>
+<summary>展开查看</summary>
+
 磁链格式：
 > magnet:?xt=urn:btih:{ 下载资源的hash值 }&dn={ 资源名称，此处可留空 }&tr={ 资源跟踪器（tracker） }&tr={ 资源跟踪器（tracker） }.....  
 
@@ -80,8 +83,12 @@ http://tracker.tfile.me/announce
 
 
 最后，把构造好磁性链接复制下来，给下载器使用就行，就不赘述了。
+</details>
 
 * 使用的BT下载工具：  
+
+<details>
+<summary>展开查看</summary>
 
 得看具体是使用什么BT下载器，以Bitcomet为例：
 
@@ -90,6 +97,7 @@ http://tracker.tfile.me/announce
 将https://raw.githubusercontent.com/DeSireFire/animeTrackerList/master/AT_all.txt 等 文件url里的内容粘贴上去即可。
 
 ![image](https://user-images.githubusercontent.com/18726905/60825706-dc290c00-a1de-11e9-9098-4cb1ccb42f19.png)
+</details>
 
 ##### 提供支持&联系我
 * 你有希望增加的收集对象站点? => [Open a new issue](https://github.com/DeSireFire/animeTrackerList/issues/new)
