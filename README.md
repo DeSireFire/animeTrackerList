@@ -5,10 +5,10 @@
 还在为下载XX神社、爱X幕等等动漫资源即使加入trackerslist也没有速度而犯愁吗？  
 这里的Trackers将更有对二次元资源下载加速的针对性。
 
-#### 更新时间（Updated）: 2019-09-17 00:04:01 
+#### 更新时间（Updated）: 2019-09-17 12:03:50 
 该项目还在运行测试阶段
 * AT_best(更新 25 个跟踪器): https://raw.githubusercontent.com/DeSireFire/animeTrackerList/master/AT_best.txt 
-* AT_all(更新 236 个跟踪器): https://raw.githubusercontent.com/DeSireFire/animeTrackerList/master/AT_all.txt 
+* AT_all(更新 235 个跟踪器): https://raw.githubusercontent.com/DeSireFire/animeTrackerList/master/AT_all.txt 
 * AT_all_udp(更新 10 个跟踪器): https://raw.githubusercontent.com/DeSireFire/animeTrackerList/master/AT_all_udp.txt 
 * AT_all_http(更新 208 个跟踪器): https://raw.githubusercontent.com/DeSireFire/animeTrackerList/master/AT_all_http.txt 
 * AT_all_https(更新 44 个跟踪器): https://raw.githubusercontent.com/DeSireFire/animeTrackerList/master/AT_all_https.txt 
