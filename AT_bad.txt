@@ -3,9 +3,11 @@ http://37.19.5.155:6881/announce
 http://sandrotracker.biz:1337/announce
 http://node.611.to:9000/announce
 http://nibba.trade:1337/announce
+http://tracker.videodrugproject.com:80/announce
 http://tracker.acgsou.com:2710/announce
 http://tracker.dmcomic.org:2710/announce
 http://tracker.openbittorrent.kg:2710/announce
+http://bt.artvid.ru:6969/announce
 http://tracker.openbittorrent.com:80/announce
 http://itv.5qzone.net:8080/
 http://tracker.dmguo.com:2710/announce
@@ -21,12 +23,12 @@ https://open.kickasstracker.com:443/announce
 http://torrent-download.to:5869/announce
 http://bittracker.ru:80/announce
 http://tracker.ipv6tracker.org:80/announce
+udp://tracker2.itzmx.com:6961/announce
 http://210.244.71.25:6969/announce
 http://t2.popgo.org:7456/annonce
 http://tracker.tfile.me:80/announce
 http://123.5qzone.net:7777/
 http://torrent.nwps.ws:80/announce
-http://open.acgtracker.com:1096/announce
 http://bt1.the9.com:6969/announce
 http://bt5.5qzone.net:8080/
 http://p4p.arenabg.com:1337/announce
@@ -44,7 +46,6 @@ http://nyaatorrents.info:7266/announce
 http://genesis.1337x.org:1337/announce
 http://0d.kebhana.mx:443/announce
 http://post.greedland.net:2710/announce
-https://tr.bangumi.moe:6969/announce
 http://bigfoot1942.sektori.org:6969/announce
 wss://ltrackr.iamhansen.xyz:443/announce
 http://denis.stalker.h3q.com:6969/announce.php
@@ -85,10 +86,11 @@ http://9.rarbg.com:2710/announce
 http://121.14.98.151:9090/announce
 http://mgtracker.org:2710/announce
 http://tracker.openbittorrrent.com:80/announce
-http://tracker.anirena.com:81/announce
 http://prestige.minimafia.nl:443/announce
+http://tracker.anirena.com:81/announce
 http://tr.bangumi.moe:6969/announce
 http://torrentsmd.me:8080/announce
+http://tracker.mytorrenttracker.com:6099/announce
 http://61.154.116.205:8000/announce
 http://bt.sc-ol.com:2710/announce
 udp://tracker.zer0day.to:1337/announce
@@ -105,7 +107,7 @@ http://210.244.71.26:6969/announce
 http://208.67.16.113:8000/annonuce
 http://tracker.tiny-vps.com:6969/announce
 http://125.227.35.196:6969/announce
-udp://tracker.internetwarriors.net:1337/announce
+http://bt.edwardk.info:6969/announce
 http://private.minimafia.nl:443/announce
 http://tracker1.wasabii.com.tw:6969/announce
 http://tracker.mg64.net:6881/announce
@@ -116,6 +118,7 @@ http://tracker.saiyaman.info:7979/announce
 http://tracker.frozen-layer.net:6969/announce
 http://tracker.ktxp.com:7070/announce
 udp://tracker4.itzmx.com:2710/announce
+http://retracker.sevstar.net:2710/announce
 http://tracker2.wasabii.com.tw:6969/announce
 http://carapax.net:6969/announce
 http://torrentclub.tech:6969/announce
