@@ -30,6 +30,7 @@ udp://tracker.coppersurfer.tk:6969/announce
 http://torrent.nwps.ws:80/announce
 http://mgtracker.org:6969/announce
 http://37.19.5.139:6969/announce
+http://tracker.mytorrenttracker.com:6099/announce
 http://tracker.ktxp.org:7070/announce
 http://torrentclub.tech:6969/announce
 http://tracker.xfsub.com:6868/announce
@@ -37,9 +38,9 @@ http://tracker.kamigami.org:2710/announce
 http://tracker.dmcomic.com:2710/announce
 http://tracker.saiyaman.info:7979/announce
 http://open.acgtracker.com:1096/announce
-http://tracker.grepler.com:6969/announce
 http://bt.sc-ol.com:2710/announce
 http://tracker.vanitycore.co:6969/announce
+http://tracker.grepler.com:6969/announce
 http://tracker.sktorrent.net:6969/announce
 http://bt1.xxxxbt.cc:6969/announce
 http://213.159.215.198:6970/announce
@@ -61,7 +62,6 @@ http://208.67.16.113:8000/annonuce
 http://tracker.36dm.com:2710/announce
 http://tracker.animeun.com:6969/announce
 http://208.67.16.113:8000/announce
-http://tracker.tvunderground.org.ru:3218/announce
 http://210.244.71.25:6969/announce
 https://open.kickasstracker.com:443/announce
 http://37.19.5.155:6881/announce
@@ -70,8 +70,8 @@ http://tracker.dm258.cn:7070/announce
 http://v6.nyaatorrents.info:3277/announce
 http://tracker.tfile.me:80/announce.php
 http://btfile.sdo.com:6961/announce
-http://tracker1.itzmx.com:6961/announce
 http://tracker.ipv6tracker.ru:80/announce
+http://tracker1.itzmx.com:6961/announce
 http://tracker.skyts.cc:6969/announce
 http://tracker.openbittorrrent.com:80/announce
 http://open.nyaatorrents.info:6544/announce
@@ -82,14 +82,15 @@ http://retracker.joxnet.ru:80/announce
 http://tracker.city9x.com:2710/announce
 http://tracker.lintk.me:2710/announce
 http://amigacity.xyz:6969/announce
+https://tr.bangumi.moe:6969/announce
 http://ipv4.tracker.harry.lu:80/announce
 http://tracker.ktxp.com:6868/announce
 http://tracker.btsync.gq:233/announce
 http://p4p.arenabg.com:1337/announce
 http://open.tracker.skyts.net:6969/announce
 http://www.36dm.com:2710/announce
-http://tk3.5qzone.net:8080/
 http://tracker.tfile.me:80/announce
+http://tk3.5qzone.net:8080/
 http://tracker2.wasabii.com.tw:6969/announce
 http://210.244.71.26:6969/announce
 http://wegkxfcivgx.chickenkiller.com:80/announce
@@ -129,12 +130,11 @@ http://173.254.204.71:1096/announce
 http://bt.cnscg.org:6969/announce
 http://pubt.net:2710/announce
 http://btfans.3322.org:8000/announce
-http://tracker.jxzmz.org:8019/announce
 http://tracker.devil-torrents.pl:80/announce
+http://tracker.jxzmz.org:8019/announce
 http://tracker.baravik.org:6970/announce
 http://tracker1.wasabii.com.tw:6969/announce
 udp://tracker4.itzmx.com:2710/announce
 http://bt.cnscg.com:6969/announce
 http://ipv4.tracker.harry.lu:80/annouce
-http://tracker.torrentyorg.pl:80/announce
 http://agusiq-torrents.pl:6969/announce
