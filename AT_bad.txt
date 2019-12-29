@@ -1,5 +1,4 @@
 http://tracker.tvunderground.org.ru:3218/announce
-http://209.141.39.35:6699/announce
 http://open.trackerlist.xyz:80/announce
 http://tracker.electro-torrent.pl:80/announce
 http://tracker.birkenwald.de:6969/announce
@@ -9,12 +8,10 @@ udp://open.stealth.si:80/announce
 http://210.244.71.25:6969/announce
 http://61.154.116.205:8000/annonuce
 http://wegkxfcivgx.chickenkiller.com:80/announce
-http://p4p.arenabg.com:1337/announce
 http://bt2.5qzone.net:8080/
 http://pubt.net:2710/announce
 http://asnet.pw:2710/announce
 http://ipv4.tracker.harry.lu:80/announce
-http://retracker.sevstar.net:2710/announce
 http://bt5.5qzone.net:8080/
 http://nyaatorrents.info:3277/announce
 http://node.611.to:9000/announce
@@ -23,7 +20,6 @@ http://tracker.tlm-project.org:6969/announce
 http://itv.5qzone.net:8080/
 http://37.19.5.139:6969/announce
 http://0d.kebhana.mx:443/announce
-http://tracker.uw0.xyz:6969/announce
 http://ipv4.tracker.harry.lu:80/annouce
 http://52.28.76.37:6969/announce
 http://retracker.bashtel.ru:80/announce
@@ -37,6 +33,7 @@ http://btfans.3322.org:8000/announce
 https://t.bitlove.org:443/announce
 http://87.248.186.252:8080/announce
 http://[2a02:c205:2026:1682::1]:443/announce
+http://91.217.91.21:3218/announce
 http://bt.ttk.artvid.ru:6969/announce
 http://bittracker.ru:80/announce
 http://123.5qzone.net:7777/
@@ -75,8 +72,6 @@ http://mgtracker.org:6969/announce
 http://sandrotracker.biz:1337/announce
 http://208.67.16.113:8000/annonuce
 http://gwp2-v19.rinet.ru:80/announce
-http://78.30.254.12:2710/announce
-https://tr.bangumi.moe:9696/announce
 http://tracker2.wasabii.com.tw:6969/announce
 http://tracker.tfile.me:80/announce
 http://tracker.novg.net:6969/announce
@@ -104,12 +99,9 @@ http://opentracker.xyz:80/announce
 http://46.4.109.148:6969/announce
 http://omg.wtftrackr.pw:1337/announce
 http://tracker.xiaoduola.xyz:6969/announce
-http://tracker.corpscorp.online:80/announce
 http://208.67.16.113:8000/announce
 http://nibba.trade:1337/announce
-http://185.83.215.123:6969/announce
 http://tracker1.itzmx.com:6961/announce
-http://tracker.yoshi210.com:6969/announce
 http://www.sukimad.com:2710/announce
 http://5.2.79.22:6969/announce
 http://bt3.5qzone.net:8080/
@@ -134,9 +126,8 @@ http://bt.cnscg.org:6969/announce
 http://5.79.83.193:2710/announce
 udp://tracker.coppersurfer.tk:6969/announce
 http://open.acgtracker.com:1096/announce
-http://tracker.torrentyorg.pl:80/announce
-http://exodus.desync.com:6969/announce
 http://tracker.beeimg.com:6969/announce
+http://exodus.desync.com:6969/announce
 http://tracker.tfile.me:80/announce.php
 wss://ltrackr.iamhansen.xyz:443/announce
 https://t.quic.ws:443/announce
@@ -150,9 +141,9 @@ http://91.218.230.81:6969/announce
 http://www.36dm.com:2710/announce
 http://tracker.cypherpunks.ru:6969/announce
 http://61.154.116.205:8000/announce
-http://tracker.internetwarriors.net:1337/announce
-http://tracker.grepler.com:6969/announce
 http://[2001:19f0:6c01:1b7d:5400:1ff:fefc:3c2a]:6969/announce
+http://tracker.grepler.com:6969/announce
+http://tracker.internetwarriors.net:1337/announce
 http://tracker.port443.xyz:6969/announce
 http://tracker4.itzmx.com:2710/announce
 http://carapax.net:6969/announce
@@ -168,5 +159,4 @@ http://tracker1.wasabii.com.tw:6969/announce
 http://bt.artvid.ru:6969/announce
 http://tracker4.emce.org:12345/announce
 http://newtoncity.org:6969/announce
-http://denis.stalker.upeer.me:6969/announce
 http://tracker.filemail.com:6969/announce
