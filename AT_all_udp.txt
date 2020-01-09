@@ -5,3 +5,6 @@ udp://tracker.opentrackr.org:1337/announce
 udp://tracker4.itzmx.com:2710/announce
 udp://tracker2.itzmx.com:6961/announce
 udp://tr.bangumi.moe:6969/announce
+udp:/ndrotracker.biz:1337/announce
+udp:/tracker.org:6969/announce
+udp:/ntost12.xyz:6969/announce
