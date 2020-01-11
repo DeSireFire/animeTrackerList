@@ -1,7 +1,6 @@
 http://rutracker.ohys.net:80/announce
 http://tracker.tvunderground.org.ru:3218/announce
 http://open.trackerlist.xyz:80/announce
-http://tracker.electro-torrent.pl:80/announce
 http://tracker.publicbt.com:80/announce
 https://opentracker-milanesi.rhcloud.com:443/announce
 udp://open.stealth.si:80/announce
@@ -13,16 +12,16 @@ http://henbt.com:2710/announce
 http://asnet.pw:2710/announce
 http://thomas.myftp.biz:6969/announce
 http://ipv4.tracker.harry.lu:80/announce
+http://retracker.sevstar.net:2710/announce
 http://tracker.xfsub.com:9999/announce
 http://nyaatorrents.info:3277/announce
-http://www.proxmox.com:6969/announce
 http://hdreactor.org:2710/announce
 http://node.611.to:9000/announce
 http://tracker.ktxp.com:7070/announce
 http://tracker.tlm-project.org:6969/announce
 http://37.19.5.139:6969/announce
 http://0d.kebhana.mx:443/announce
-http://tracker.btsync.gq:233/announce
+http://tracker.uw0.xyz:6969/announce
 http://77.106.108.90:2710/announce
 http://torrent.nwps.ws:6969/announce
 http://125.227.35.196:6969/announce
@@ -30,6 +29,7 @@ http://tracker.saiyaman.info:7979/announce
 http://tracker.ktxp.com:6868/announce
 http://btfans.3322.org:8000/announce
 http://skyland.sytes.net:6969/announce
+http://acg.rip:6699/announce
 http://tracker2.ypojie.com:6961/announce
 http://bittracker.ru:80/announce
 http://bt.sc-ol.com:2710/announce
@@ -50,7 +50,6 @@ http://tracker.vanitycore.co:6969/announce
 http://retracker.telecom.by:80/announce
 http://retracker.mgts.by:80/announce
 http://torrentclub.tech:6969/announce
-http://182.150.53.61:8080/announce
 http://tracker.xelion.fr:6969/announce
 http://tracker.ktxp.org:6868/announce
 http://tracker.baravik.org:6970/announce
@@ -60,6 +59,8 @@ http://210.244.71.26:6969/announce
 https://tracker.vectahosting.eu:2053/announce
 http://tracker.devil-torrents.pl:80/announce
 http://bt.careland.com.cn:6969/announce
+http://mail2.zelenaya.net:80/announce
+udp://tracker2.itzmx.com:6961/announce
 http://www.loushao.net:8080/announce
 http://tracker.xfsub.com:6868/scrape
 http://bigfoot1942.sektori.org:6969/announce
@@ -68,6 +69,7 @@ http://mgtracker.org:6969/announce
 http://sandrotracker.biz:1337/announce
 http://208.67.16.113:8000/annonuce
 http://gwp2-v19.rinet.ru:80/announce
+http://78.30.254.12:2710/announce
 https://tr.bangumi.moe:9696/announce
 http://tracker2.wasabii.com.tw:6969/announce
 http://tracker.tfile.me:80/announce
@@ -75,6 +77,7 @@ http://tracker.novg.net:6969/announce
 http://bt2.careland.com.cn:6969/announce
 http://tracker.nwps.ws:6969/announce
 http://121.14.98.151:9090/announce
+http://tracker.skyts.net:6969/announce
 http://commiesubs.com:7266/announce
 http://t2.popgo.org:7456/annonce
 http://86.19.29.160:6969/announce
@@ -87,14 +90,13 @@ http://tracker.filetracker.pl:8089/announce
 http://173.254.204.71:1096/announce
 http://tracker.anime-miako.to:6969/announce
 http://open.tracker.skyts.net:6969/announce
-http://tr.bangumi.moe:6969/announce
 http://miriamyeung.com.tw:6969/announce
+http://104.238.198.186:8000/announce
 https://opentracker.xyz:443/announce
 http://153.92.6.117:80/announce
 http://opentracker.xyz:80/announce
 http://46.4.109.148:6969/announce
 http://omg.wtftrackr.pw:1337/announce
-http://tracker.corpscorp.online:80/announce
 http://t.agx.co:61655/announce
 http://208.67.16.113:8000/announce
 http://nibba.trade:1337/announce
@@ -123,11 +125,12 @@ http://open.acgtracker.com:1096/announce
 http://tracker.torrentyorg.pl:80/announce
 http://exodus.desync.com:6969/announce
 http://tracker.tfile.me:80/announce.php
+http://denis.stalker.h3q.com:6969/announce
 wss://ltrackr.iamhansen.xyz:443/announce
 https://t.quic.ws:443/announce
-ws://tracker.btsync.cf:2710/announce
 http://torrentsmd.eu:8080/announce
 http://tracker.sktorrent.net:6969/announce
+http://tracker2.itzmx.com:6961/announce
 http://bt.henbt.com:2710/announce
 http://private.minimafia.nl:443/announce
 https://tracker.fastdownload.xyz:443/announce
@@ -142,7 +145,9 @@ http://tracker.cypherpunks.ru:6969/announce
 http://61.154.116.205:8000/announce
 http://tracker.internetwarriors.net:1337/announce
 http://tracker.grepler.com:6969/announce
+http://91.207.136.85:80/announce
 http://tracker.port443.xyz:6969/announce
+http://tracker4.itzmx.com:2710/announce
 http://tracker.bz:80/announce
 http://retracker.adminko.org:80/announce
 http://carapax.net:6969/announce
