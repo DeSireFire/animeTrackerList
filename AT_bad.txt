@@ -3,11 +3,10 @@ http://59.36.96.77:6969/announce
 http://tracker.tvunderground.org.ru:3218/announce
 http://open.trackerlist.xyz:80/announce
 http://tracker.birkenwald.de:6969/announce
-udp://104.238.198.186:8000/announce
 udp://open.stealth.si:80/announce
+http://tracker.ygsub.com:6969/announce
 http://210.244.71.25:6969/announce
 http://176.123.5.118:80/announce
-http://p4p.arenabg.com:1337/announce
 http://torrent-downloads.to:5869/announce.php
 http://pubt.net:2710/announce
 http://henbt.com:2710/announce
@@ -34,9 +33,7 @@ http://skyland.sytes.net:6969/announce
 http://acg.rip:6699/announce
 http://87.248.186.252:8080/announce
 http://[2a02:c205:2026:1682::1]:443/announce
-http://91.217.91.21:3218/announce
 http://tracker2.ypojie.com:6961/announce
-http://bittracker.ru:80/announce
 http://bt.sc-ol.com:2710/announce
 udp://exodus.desync.com:6969/announce
 http://tracker.calculate.ru:6969/announce
@@ -60,6 +57,7 @@ http://tracker.vanitycore.co:6969/announce
 http://51.254.244.161:6969/announce
 http://retracker.mgts.by:80/announce
 http://torrentclub.tech:6969/announce
+http://182.150.53.61:8080/announce
 http://tracker.xelion.fr:6969/announce
 http://[2a04:ac00:1:3dd8::1:2710]:2710/announce
 http://tracker.baravik.org:6970/announce
@@ -69,7 +67,6 @@ http://210.244.71.26:6969/announce
 https://tracker.vectahosting.eu:2053/announce
 http://tracker.filepit.to:6969/announce
 http://bt.careland.com.cn:6969/announce
-http://mail2.zelenaya.net:80/announce
 http://74.82.52.209:6969/announce
 udp://tracker2.itzmx.com:6961/announce
 http://tracker.xfsub.com:6868/scrape
@@ -84,6 +81,8 @@ http://mgtracker.org:6969/announce
 http://sandrotracker.biz:1337/announce
 http://208.67.16.113:8000/annonuce
 http://gwp2-v19.rinet.ru:80/announce
+http://78.30.254.12:2710/announce
+https://tr.bangumi.moe:9696/announce
 http://tracker2.wasabii.com.tw:6969/announce
 http://tracker.tfile.me:80/announce
 http://tracker.novg.net:6969/announce
@@ -114,7 +113,6 @@ http://retracker.hotplug.ru:2710/announce
 http://torrent-downloads.to:5869/announce
 http://torrent-download.to:5869/announce.php
 http://tracker.ipv6tracker.ru:80/announce
-http://104.238.198.186:8000/announce
 http://52.58.128.163:6969/announce
 https://opentracker.xyz:443/announce
 http://109.121.134.121:1337/announce
@@ -122,11 +120,13 @@ http://bttrack.9you.com:8080/announce
 http://tracker.levelup.cn:8080/announce
 http://opentracker.xyz:80/announce
 http://46.4.109.148:6969/announce
+http://176.113.68.66:6961/announce
 http://tracker.xiaoduola.xyz:6969/announce
 http://208.67.16.113:8000/announce
 http://nibba.trade:1337/announce
 http://185.83.215.123:6969/announce
 http://5.2.79.22:6969/announce
+http://62.210.177.88:1096/announce
 http://tracker.kamigami.org:2710/announce
 http://bt.ktkj.com:8080/announce
 http://157.7.202.64:8080/announce
@@ -144,6 +144,7 @@ http://158.69.146.212:7777/announce
 http://tracker1.ypojie.com:8080/announce
 http://prestige.minimafia.nl:443/announce
 wss://tracker.fastcast.nz:443/announce
+http://tracker.dm258.cn:7070/announce
 http://tracker.36dm.com:2710/announce
 http://tracker.acg.gg:2710/announce
 udp://tracker4.itzmx.com:2710/announce
@@ -162,8 +163,10 @@ wss://ltrackr.iamhansen.xyz:443/announce
 http://denis.stalker.h3q.com:6969/announce
 https://t.quic.ws:443/announce
 http://torrentsmd.eu:8080/announce
+http://tracker2.itzmx.com:6961/announce
 http://bt.henbt.com:2710/announce
 http://bt.wiiyi.com:6969/announce
+http://tracker.dm258.cn:7070/announce��
 http://private.minimafia.nl:443/announce
 https://tracker.fastdownload.xyz:443/announce
 http://tracker4.ypojie.com:2710/announce
@@ -179,9 +182,9 @@ http://61.154.116.205:8000/announce
 http://tracker.internetwarriors.net:1337/announce
 http://tracker.grepler.com:6969/announce
 http://[2001:19f0:6c01:1b7d:5400:1ff:fefc:3c2a]:6969/announce
-http://91.207.136.85:80/announce
 http://tracker.port443.xyz:6969/announce
 http://tracker4.itzmx.com:2710/announce
+http://tracker.bz:80/announce
 http://retracker.adminko.org:80/announce
 http://carapax.net:6969/announce
 http://shadowshq.yi.org:6969/announce.php
