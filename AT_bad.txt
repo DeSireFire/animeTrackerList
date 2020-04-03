@@ -5,14 +5,14 @@ http://tracker.tvunderground.org.ru:3218/announce
 http://open.trackerlist.xyz:80/announce
 http://tracker.birkenwald.de:6969/announce
 http://torrentsmd.me:8080/announce
-udp://104.238.198.186:8000/announce
 udp://open.stealth.si:80/announce
 http://210.244.71.25:6969/announce
+http://p4p.arenabg.com:1337/announce
 http://torrent-downloads.to:5869/announce.php
 http://pubt.net:2710/announce
 http://asnet.pw:2710/announce
 http://bt.popgo.net:7456/announce
-http://bt.okmp3.ru:2710/announce
+http://retracker.sevstar.net:2710/announce
 http://tracker.edkj.club:6969/announce
 http://nyaatorrents.info:3277/announce
 http://www.proxmox.com:6969/announce
@@ -22,7 +22,7 @@ http://node.611.to:9000/announce
 http://tracker.ktxp.com:7070/announce
 http://182.176.139.129:6969/announce
 http://37.19.5.139:6969/announce
-http://tracker.uw0.xyz:6969/announce
+http://0d.kebhana.mx:443/announce
 http://52.28.76.37:6969/announce
 http://125.227.35.196:6969/announce
 http://9.rarbg.com:2710/announce
@@ -32,6 +32,7 @@ http://acg.rip:6699/announce
 http://87.248.186.252:8080/announce
 http://91.217.91.21:3218/announce
 http://[2a02:c205:2026:1682::1]:443/announce
+http://bittracker.ru:80/announce
 http://bt.sc-ol.com:2710/announce
 udp://exodus.desync.com:6969/announce
 http://tracker.calculate.ru:6969/announce
@@ -57,9 +58,12 @@ http://tracker.baravik.org:6970/announce
 http://amigacity.xyz:6969/announce
 http://tracker.city9x.com:2710/announce
 http://210.244.71.26:6969/announce
+http://tracker3.itzmx.com:6961/announce
 https://tracker.vectahosting.eu:2053/announce
 http://tracker.filepit.to:6969/announce
 http://74.82.52.209:6969/announce
+http://tracker.opentrackr.org:1337/announce
+http://www.loushao.net:8080/announce
 http://tracker.skyts.cn:6969/announce
 http://tracker.anirena.com:6969/announce
 http://genesis.1337x.org:1337/announce
@@ -78,8 +82,10 @@ http://tracker.aletorrenty.pl:2710/announce
 http://bt2.careland.com.cn:6969/announce
 http://tk.nvacg.org:3333/announce
 http://121.14.98.151:9090/announce
+http://tracker.skyts.net:6969/announce
 http://t2.popgo.org:7456/annonce
 http://[2001:1b10:1000:8101:0:242:ac11:2]:6969/announce
+https://tr.bangumi.moe:6969/announce
 http://bt.xxx-tracker.com:2710/announce
 http://share.came,cn:8080/announce
 http://213.159.215.198:6970/announce
@@ -96,6 +102,7 @@ http://retracker.hotplug.ru:2710/announce
 http://torrent-downloads.to:5869/announce
 http://tracker01.loveapp.com:6789/announce
 http://torrent-download.to:5869/announce.php
+http://104.238.198.186:8000/announce
 http://52.58.128.163:6969/announce
 https://opentracker.xyz:443/announce
 http://109.121.134.121:1337/announce
@@ -107,6 +114,7 @@ http://46.4.109.148:6969/announce
 http://tracker.xiaoduola.xyz:6969/announce
 http://208.67.16.113:8000/announce
 http://185.83.215.123:6969/announce
+http://tracker.bittor.pw:1337/announce
 http://5.2.79.22:6969/announce
 http://peersteers.org:80/announce
 http://bt.ktkj.com:8080/announce
@@ -124,6 +132,7 @@ http://share.newdmhy.net:8000/announce
 http://158.69.146.212:7777/announce
 http://176.113.71.19:6961/announce
 wss://tracker.fastcast.nz:443/announce
+http://tracker.dm258.cn:7070/announce
 udp://tracker4.itzmx.com:2710/announce
 http://tracker.sbsub.com:2710/announce
 http://5.79.83.193:2710/announce
@@ -143,7 +152,6 @@ http://denis.stalker.h3q.com:6969/announce
 wss://ltrackr.iamhansen.xyz:443/announce
 https://t.quic.ws:443/announce
 http://torrentsmd.eu:8080/announce
-http://tracker2.itzmx.com:6961/announce
 http://bt.henbt.com:2710/announce
 http://bt.wiiyi.com:6969/announce
 https://tracker.fastdownload.xyz:443/announce
@@ -156,10 +164,9 @@ http://tracker.cypherpunks.ru:6969/announce
 http://tracker.torrent.to:2710/announce
 http://61.154.116.205:8000/announce
 http://tracker.internetwarriors.net:1337/announce
-http://[2001:19f0:6c01:1b7d:5400:1ff:fefc:3c2a]:6969/announce
 http://tracker.grepler.com:6969/announce
+http://[2001:19f0:6c01:1b7d:5400:1ff:fefc:3c2a]:6969/announce
 http://tracker.port443.xyz:6969/announce
-http://tracker4.itzmx.com:2710/announce
 http://retracker.adminko.org:80/announce
 http://carapax.net:6969/announce
 http://80.246.243.18:6969/announce
@@ -168,10 +175,10 @@ http://tracker.kisssub.org:2015/announce
 http://btfile.sdo.com:6961/announce
 http://mgtracker.org:2710/announce
 http://tracker.kuroy.me:5944/announce
+http://tracker.dler.org:6969/announce
 http://tracker1.wasabii.com.tw:6969/announce
 http://bt.artvid.ru:6969/announce
 http://188.165.253.109:1337/announce
 http://tracker4.emce.org:12345/announce
 http://newtoncity.org:6969/announce
 http://denis.stalker.upeer.me:6969/announce
-http://tracker.filemail.com:6969/announce
