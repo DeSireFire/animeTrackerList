@@ -1,0 +1,537 @@
+import requests,re,time,json,datetime
+from urllib.parse import unquote,urlparse
+
+
+torrent_URL = 'http://tool.chacuo.net/commontorrentinfo'
+
+# 种子信息查询所用data
+FormData = {
+'data':'http://bt.acg.gg/down.php?date=1542855794&hash=035765ed8d2f15ba7e8fc5274b6afe0c59c260f8',
+'type':'torrentinfo',
+'arg':'',
+'beforeSend':'undefined',
+}
+# 种子信息查询所用头部
+_header = {
+    'Host':'tool.chacuo.net',
+    'Origin':'http://tool.chacuo.net',
+    'Referer':'http://tool.chacuo.net/commontorrentinfo',
+    'User-Agent':'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36',
+}
+
+# 需要爬取的网站列表&&用于Tracker地址提取的正则
+urlList_url_RE = {
+
+'https://share.dmhy.org/':['title="磁力下載"href="([\s\S]*?)">([\s\S]*?)</a>',True,'https://share.dmhy.org/'],
+'https://share.dmhy.org/topics/list/page/2':['title="磁力下載"href="([\s\S]*?)">([\s\S]*?)</a>',True,'https://share.dmhy.org/'],
+'https://share.dmhy.org/topics/list/page/3':['title="磁力下載"href="([\s\S]*?)">([\s\S]*?)</a>',True,'https://share.dmhy.org/'],
+'https://share.dmhy.org/topics/list/page/4':['title="磁力下載"href="([\s\S]*?)">([\s\S]*?)</a>',True,'https://share.dmhy.org/'],
+'https://share.dmhy.org/topics/list/page/5':['title="磁力下載"href="([\s\S]*?)">([\s\S]*?)</a>',True,'https://share.dmhy.org/'],
+'https://nyaa.si/':['<a href="magnet:?([\s\S]*?)"><i class="fa fa-fw fa-magnet"></i></a>',False,'https://nyaa.si/'],
+'https://nyaa.si/?p=2':['<a href="magnet:?([\s\S]*?)"><i class="fa fa-fw fa-magnet"></i></a>',False,'https://nyaa.si/'],
+'https://nyaa.si/?p=3':['<a href="magnet:?([\s\S]*?)"><i class="fa fa-fw fa-magnet"></i></a>',False,'https://nyaa.si/'],
+'https://nyaa.si/?p=4':['<a href="magnet:?([\s\S]*?)"><i class="fa fa-fw fa-magnet"></i></a>',False,'https://nyaa.si/'],
+'https://nyaa.si/?p=5':['<a href="magnet:?([\s\S]*?)"><i class="fa fa-fw fa-magnet"></i></a>',False,'https://nyaa.si/'],
+'https://mikanani.me/Home/Classic':[' <a data-clipboard-text="([\s\S]*?)"',False,'https://mikanani.me/'],
+'https://mikanani.me/Home/Classic/2':[' <a data-clipboard-text="([\s\S]*?)"',False,'https://mikanani.me/'],
+'https://mikanani.me/Home/Classic/3':[' <a data-clipboard-text="([\s\S]*?)"',False,'https://mikanani.me/'],
+'https://mikanani.me/Home/Classic/4':[' <a data-clipboard-text="([\s\S]*?)"',False,'https://mikanani.me/'],
+'https://mikanani.me/Home/Classic/5':[' <a data-clipboard-text="([\s\S]*?)"',False,'https://mikanani.me/'],
+# 'https://acg.rip':[r'</a></span></td><tdclass="action"><ahref="([\s\S]*?)"><iclass="fafa-download">',True,'https://acg.rip'],
+# 'http://bt.acg.gg/':['<aid="download"href="([\s\S]*?)"target="_blank">下载种子</a>',True,'http://bt.acg.gg/'],
+# 'http://bt.acg.gg/sort-1-2.html':['<aid="download"href="([\s\S]*?)"target="_blank">下载种子</a>',True,'http://bt.acg.gg/'],
+# 'http://www.kisssub.org/':[' <a data-clipboard-text="([\s\S]*?)"',False],
+
+}
+
+trackerListFileNames = {
+    'AT_best':[],
+    'AT_all':[],
+    'AT_bad':[],
+    'AT_all_udp':[],
+    'AT_all_http':[],
+    'AT_all_https':[],
+    'AT_all_ws':[],
+    'AT_best_ip':[],
+    'AT_all_ip':[],
+}
+
+P = {
+    "http":"http://127.0.0.1:1080",
+    "https":"https://127.0.0.1:1080",
+}
+# 网页下载器
+class Spider(object):
+    def __init__(self, url):
+        self.url = url
+        self._header = {
+            'Referer': self.url ,
+            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36',
+        }
+        self.url_RE = urlList_url_RE[url][0]
+        self.nbsp_del = urlList_url_RE[url][1]
+        self.base_url = urlList_url_RE[url][2]
+
+    def htmlDownloader(self):
+        '''
+        HTML下载函数
+        :return:目标网页响应内容
+        '''
+        try:
+            # self.html = requests.get(url=self.url, headers=self._header, timeout=25)
+            self.html = requests.get(url=self.url, headers=self._header, proxies=P)
+            self.html.encoding = 'utf-8'
+            # print("".join(self.html.text.split()))
+
+            # 网页请求OK或者请求得到的内容过少，判断为连接失败
+            if not self.html.ok:
+                raise ConnectionError
+            else:
+                return self.html.text
+
+        except Exception:
+            count = 0  # 重试次数
+
+            while count < 20:
+                try:
+                    self.html = requests.get(url=self.url, headers=self._header, timeout=60)
+                    self.html.encoding = 'utf-8'
+                    if not self.html.ok:
+                        raise ConnectionError
+                    else:
+                        return self.html.text
+                except Exception:
+                    count += 1
+        # return self.html.text
+
+    def re_DMHY(self,html_text, re_pattern, nbsp_del=True):
+        '''
+        增则过滤函数
+        :param html_text: 字符串，网页的文本
+        :param re_pattern: 字符串，正则表达式
+        :param nbsp_del: 布尔值，控制是否以去除换行符的形式抓取有用信息
+        :return:
+        '''
+        self.pattern = re.compile(re_pattern)
+        if nbsp_del:
+            # print(self.pattern.findall("".join(html_text.split())))
+            return self.pattern.findall("".join(html_text.split()))
+        else:
+            return self.pattern.findall(html_text)
+
+    def cutMagnet(self,cutMagnetStr):
+        '''
+        裁剪磁链头部，并且进行简单tracker去重
+        :return: 保留tracker的部分
+        '''
+
+        self.trackList = []
+        # if ('torrent' not in cutMagnet[0]) or ('down.php' not in cutMagnet[0]):
+        if 'xt=urn:btih' in str(cutMagnetStr[0]):
+            for i in cutMagnetStr:
+                # 合并列表,并进行url解码（例如：http%3A%2F%2F104.238.198.186%3A8000%2Fannounce，解码成：http://104.238.198.186:8000/announce）
+                if "tuple" in str(type(i)):
+                    self.trackList += list(map(lambda x:unquote(x), i[0].replace("&amp;", "&").split('&tr=')[1:]))
+                else:
+                    self.trackList += list(map(lambda x:unquote(x), i.replace("&amp;", "&").split('&tr=')[1:]))
+        else:
+            print('检测种子链接')
+            for i in cutMagnetStr:
+                FormData['data'] = '%s%s'%(self.base_url,i)
+                print(FormData['data'])
+                BTemp =  BTtoMagnet(torrent_URL, FormData, _header)
+                if BTemp:
+                    self.trackList += BTemp
+        # 同站去重
+        self.trackList = list(set(self.trackList))
+        print('同站去重,得到 %s 条Tracker地址'%len(self.trackList))
+        return self.trackList
+
+    def main_Spider(self):
+        '''
+        爬虫主函数
+        :return:初步处理的Trackerl列表
+        '''
+        if self.htmlDownloader():
+            self.magnetList = list(self.re_DMHY(self.htmlDownloader(), self.url_RE, self.nbsp_del))
+            print('从 %s 匹配到链接 %s 条'%(self.url,len(self.magnetList)))
+            return self.cutMagnet(self.magnetList)
+        else:
+            print("网页下载器发现异常!\n目标网址：%s ,\n获取内容为：%s"%(self.url,self.htmlDownloader()))
+
+def socket_is_opened(url,timout):
+    '''
+    磁性链接测试函数
+    :param url: 字符串，需要测试的tracker服务器地址
+    :param timout: int类型，测试tracker服务器地址的超时时间
+    :return: 列表[布尔值,运行时间]
+    '''
+    result = urlparse(url)
+    import socket,time
+    sk = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+    sk.settimeout(timout)
+    try:
+        # 记录开始时间
+        start = time.time()
+        if result.port is None:
+            if result.scheme is 'http':
+                sk.connect(result.hostname, 80)
+            if result.scheme is 'https':
+                sk.connect(result.hostname, 443)
+        else:
+            sk.connect((result.hostname, result.port))
+        # 记录结束时间
+        stop = time.time()
+        # 计算运行时间
+        resTime = stop-start
+        print('%s 为有效跟踪器，链接时间为 %s' % (url, resTime))
+        return [True,resTime]
+    except socket.error:
+        print('%s 为无效跟踪器，链接时间超时！' % (url))
+        return [False]
+    finally:
+        sk.close()
+
+def readmeEditor(fileName='README.md'):
+    '''
+    说明书更新函数，按时间更新说明书的某些内容
+    :param fileName: 字符串，说明书的文件名，可带绝对路径
+    :return: 无返回值
+    '''
+
+    try:
+        # 读取说明书，并保存为列表
+        with open(fileName, 'r', encoding="utf-8") as f:
+            lines = f.readlines()
+
+        # 自动查找包含‘Updated’在文本哪一行，如果未查找到默认值0，并修改改行文本内容
+        lines[lines.index(list(filter(lambda x: x if 'Updated' in x else 0, lines))[0])] = '#### 更新时间（Updated）: %s \n' % datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+
+        # 自动查找包含关键字在文本哪一行，如果未查找到默认值0，并修改改行文本内容
+        for i in trackerListFileNames:
+            lines[lines.index(list(filter(lambda x: x if i in x else 0, lines))[0])] = '* {name}(更新 {num} 个跟踪器): https://raw.githubusercontent.com/DeSireFire/animeTrackerList/master/{filename}.txt \n'.format(name = i, num = len(trackerListFileNames[i]), filename = i)
+
+        # 重写说明书
+        with open(fileName, 'w', encoding="utf-8") as file_write:
+            for i in lines:
+                file_write.write(i)
+    except IOError as e:
+        print('读写说明书出错！%s'%e)
+
+def trackerList(trackerList,fileName):
+    '''
+    tracker列表文本生成器
+    :param trackerList:跟踪器列表
+    :param fileName: 创建的文本名字
+    :return: 无返回值
+    '''
+    if trackerList:
+        try:
+            # 生成文本文件
+            with open(fileName+'.txt', 'w', encoding="utf-8") as file_write:
+                for i in trackerList:
+                    file_write.write(i+'\n')
+        except IOError as e:
+            print('创建文本出错！%s'%e)
+    else:
+        print('列表为空，使用旧文件')
+
+
+def trackerListHandler(trackerListResult):
+    '''
+    跟踪器列表分装整理函数
+    :param trackerListResult: 爬虫获取到的简单去重的列表
+    :return: 无返回值，直接调用trackerList函数
+    '''
+    # 先排除坏tracker,再从好的trackers选出快速的trackers
+    sortTimeAll = []   # tracker链接所用时间列表
+    sortTimeBest = []   # 好的tracker链接所用时间列表
+    tempAll = []    # 临时所有可用tracker链接地址列表
+    tempBest = []    # 临时所有可用tracker链接地址列表
+    tempbad = []    # 临时不可用tracker链接地址列表
+    for i in trackerListResult:
+        print('[%s/%s]'%(trackerListResult.index(i)+1,len(trackerListResult)+1))
+        resSO = socket_is_opened(i,1)
+        if resSO[0]:
+            tempAll.append(i)
+            sortTimeAll.append(resSO[1])
+            # 7.62939453125e-06
+            # if 0.0001 > resSO[1]:
+            #     print('%s 链接时间为 %s 低于 0.0001 秒'%(i,resSO[1]))
+            #     sortTimeBest.append(resSO[1])
+            #     tempBest.append(i)
+        else:
+            tempbad.append(i)
+
+    # 使用列表sortTime来对列表tempall进行排序,并赋值给主列表
+    # 排序前：['http://104.24.104.16:80/announce', 'http://tracker.anirena.com:80/announce', 'http://peersteers.org:80/announce', 'http://tracker.torrentyorg.pl/announce', 'https://tr.bangumi.moe/announce']
+    # 时间列表：[0.18193411827087402, 0.2025458812713623, 0.4659538269042969, 0.0, 0.0]
+    # 排序后：['http://tracker.torrentyorg.pl/announce', 'https://tr.bangumi.moe/announce', 'http://104.24.104.16:80/announce', 'http://tracker.anirena.com:80/announce', 'http://peersteers.org:80/announce']
+    trackerListFileNames['AT_all']=[x for (y,x) in sorted(zip(sortTimeAll,tempAll))]
+    trackerListFileNames['AT_best']=[x for (y,x) in sorted(zip(sortTimeAll,tempAll))][0:25]
+    # trackerListFileNames['AT_best']=[x for (y,x) in sorted(zip(sortTimeBest,tempBest))]
+
+    # 从快速trackers选出带IP的trackers地址
+    for i in trackerListFileNames['AT_best']:
+        if checkip(i):
+            trackerListFileNames['AT_best_ip'].append(i)
+    # 从好的trackers选出带IP的trackers地址
+    for i in trackerListFileNames['AT_all']:
+        if checkip(i):
+            trackerListFileNames['AT_all_ip'].append(i)
+    # 从好的trackers分类trackers地址
+    for i in trackerListFileNames['AT_all']:
+        if 'udp:' in i:
+            trackerListFileNames['AT_all_udp'].append(i)
+        elif 'http:' in i:
+            trackerListFileNames['AT_all_http'].append(i)
+        elif 'https:' in i:
+            trackerListFileNames['AT_all_https'].append(i)
+        elif 'wss:' in i:
+            trackerListFileNames['AT_all_ws'].append(i)
+
+    # 最终列表去重！
+    trackerListFileNames['AT_bad'] = deduplication(tempbad)
+    trackerListFileNames['AT_best'] = deduplication(trackerListFileNames['AT_best'])
+    trackerListFileNames['AT_best_ip'] = deduplication(trackerListFileNames['AT_best_ip'])
+    trackerListFileNames['AT_all'] = deduplication(trackerListFileNames['AT_all'])
+    trackerListFileNames['AT_all_udp'] = deduplication(trackerListFileNames['AT_all_udp'])
+    trackerListFileNames['AT_all_http'] = deduplication(trackerListFileNames['AT_all_http'])
+    trackerListFileNames['AT_all_https'] = deduplication(trackerListFileNames['AT_all_https'])
+    trackerListFileNames['AT_all_ws'] = deduplication(trackerListFileNames['AT_all_ws'])
+    trackerListFileNames['AT_all_ip'] = deduplication(trackerListFileNames['AT_all_ip'])
+
+def deduplication(temp):
+    '''
+    列表去重，并保持列表元素顺序的函数
+    :param temp: 临时列表
+    :return: 去重后的列表
+    '''
+    T = []
+    [T.append(i) for i in temp if not i in T]
+    return T
+
+def checkip(ip):
+    '''
+    判断是否为IP地址函数
+    :param ip: 字符串，ip地址
+    :return:
+    '''
+    p = re.compile('^((25[0-5]|2[0-4]\d|[01]?\d\d?)\.){3}(25[0-5]|2[0-4]\d|[01]?\d\d?)$')
+    # print(ip.split('/'))
+    # ['https:', '', '104.31.112.235:443', 'announce']
+    for i in ip.split('/'):
+        if p.match(i):
+            return True
+    return False
+
+def autoGithub(choose):
+    '''
+    自动上传github的工具
+    :param choose: 布尔值，为True为上传到github,反之为从github拉取同步
+    :return:
+    '''
+    # import subprocess
+    import os
+    # res = subprocess.Popen('bash autopush.sh', shell=True)
+    if choose:
+        print('上传到repo')
+        tempPid = os.popen('bash autopush.sh')
+        resPid = tempPid.readlines()
+        tempPid.close()
+        for i in resPid:
+            print(i)
+        if 'Already up-to-date.' in resPid:
+            return True
+        else:
+            return False
+
+    else:
+        print('从repo同步')
+        tempPid = os.popen('git pull')
+        resPid = tempPid.readlines()
+        tempPid.close()
+        for i in resPid:
+            print(i)
+
+def printTime(inc = 86400):
+    '''
+    定时任务工具
+    Timer 函数第一个参数是时间间隔（单位是秒），第二个参数是要调用的函数名，第三个参数是调用函数的参数(tuple)
+    :param inc: 整数型，单位秒，默认值为86400（24小时）
+    :return:
+    '''
+    from threading import Timer,activeCount
+    import time
+    print('于 %s 进入新一轮任务计时'%datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S"))
+    # print('当前线程数为{}'.format(activeCount()))
+    # 傻瓜式循环任务，检测是不是00点
+    while True:
+        if '12' == datetime.datetime.now().strftime("%H") or '00' == datetime.datetime.now().strftime("%H"):
+            print('当前时间:%s,开始任务！'%datetime.datetime.now().strftime("%H:%M"))
+            print('当前线程数为{}'.format(activeCount()))
+            t = Timer(inc, ATL_main)
+            t.start()
+            time.sleep(3600)
+            t.join()
+        else:
+            print('当前时间:%s,不开始采集任务！进行代理池测试！' % datetime.datetime.now().strftime("%H:%M"))
+            # getHtml()
+            time.sleep(5)
+
+def BTtoMagnet(URL,FormData,_header):
+    '''
+    种子网站特殊处理函数
+    处理得到信息，按<tr>标签切除，并替换</th>为：号，最后去除所有html标签
+    :param tempStr:符合字典格式的字符串
+    :return:
+    '''
+    data = []
+    resdata = []
+    try:
+        _respone = requests.post(url=URL, data=FormData, headers=_header)
+        _respone.encoding = 'unicode_escape'
+
+        # 网页请求OK或者请求得到的内容过少，判断为连接失败
+        if (not _respone.ok) or (len(json.loads(_respone.text)['data'][0]) < 2):
+            raise ConnectionError
+        else:
+            for n in json.loads(_respone.text)['data'][0].split('<tr>'):
+                data.append(re.sub(r'</?\w+[^>]*>', '', n.replace('</th>', ':')))
+                print(re.sub(r'</?\w+[^>]*>', '', n.replace('</th>', ':')))
+            pattern = re.compile(r'http[s]?://(?:[a-zA-Z]|[0-9]|[$-_@.&+]|[!*\(\),]|(?:%[0-9a-fA-F][0-9a-fA-F]))+')
+            for i in data[6:]:
+                if '地址' in i:
+                    temp = re.findall(pattern, i)
+                    if temp:
+                        resdata.append(temp[0])
+            # print(resdata)
+            return resdata
+    except Exception:
+        count = 0  # 重试次数
+        while count < 3:
+            try:
+                print('第%s次,尝试链接%s'%(count,URL))
+                _respone = requests.post(url=URL, data=FormData, headers=_header,timeout = 10)
+                _respone.encoding = 'unicode_escape'
+                if (not _respone.ok) or (len(json.loads(_respone.text)['data'][0]) < 2):
+                    raise ConnectionError
+                else:
+                    pattern = re.compile(
+                        r'http[s]?://(?:[a-zA-Z]|[0-9]|[$-_@.&+]|[!*\(\),]|(?:%[0-9a-fA-F][0-9a-fA-F]))+')
+                    for i in data[6:]:
+                        if '地址' in i:
+                            temp = re.findall(pattern, i)
+                            if temp:
+                                resdata.append(temp[0])
+                    # print(resdata)
+                    return resdata
+            except Exception:
+                count += 1
+
+def get_proxy():
+    retry_count = 5
+    while retry_count > 0:
+        try:
+            html = requests.get("http://150.95.149.246:5010/get/").content
+            # 使用代理访问
+            return html
+        except Exception:
+            print('IP测试失败 %s'%retry_count)
+            retry_count -= 1
+            # 访问失败，计数减一
+    # 说明代理池出了问题
+    import os
+    print('重启代理池进程')
+    tempPid = os.popen('bash proxyPool.sh')
+    # tempPid.close()
+
+def delete_proxy(proxy):
+    requests.get("http://150.95.149.246:5010/delete/?proxy={}".format(proxy))
+
+
+def getHtml():
+    # ....
+    retry_count = 5
+    proxy = get_proxy()
+    while retry_count > 0:
+        try:
+            html = requests.get('https://www.zzuliacgn.com', proxies={"http": "http://{}".format(proxy)})
+            print('%s 可用'%proxy)
+            # 使用代理访问
+            return html.status_code
+        except Exception:
+            print('IP测试失败 %s'%retry_count)
+            retry_count -= 1
+            # 访问失败，计数减一
+    # 出错5次, 删除代理池中代理
+    print('删除ip:%s'%proxy)
+    delete_proxy(proxy)
+    return None
+
+
+def cleaner():
+    '''
+    将全局变量初始化
+    :return:
+    '''
+    tracker_all_temp = []
+    try:
+        tracker_all_temp = requests.get(url='https://raw.githubusercontent.com/ngosang/trackerslist/master/trackers_all.txt').text.split()
+    except:
+        pass
+    finally:
+        trackerListFileNames = {
+            'AT_best':[],
+            'AT_all':tracker_all_temp,
+            'AT_bad':[],
+            'AT_all_udp':[],
+            'AT_all_http':[],
+            'AT_all_https':[],
+            'AT_all_ws':[],
+            'AT_best_ip':[],
+            'AT_all_ip':[],
+        }
+        print('trackerListFileNames 列表初始化！')
+        print(trackerListFileNames)
+
+def ATL_main():
+    print('自动启动,时间：%s'%datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S"))
+    # 同步github
+    autoGithub(0)
+    MagnetTemp = []
+    torrentTemp = []
+    cleaner()
+    for i in urlList_url_RE:
+        if 'acg.rip' not in i and 'bt.acg.gg' not in i and 'kisssub' not in i:
+            i_DMHY = Spider(i)
+            MagnetTemp += i_DMHY.main_Spider()
+        else:
+            i_DMHY = Spider(i)
+            try:
+                torrentTemp += i_DMHY.main_Spider()
+            except:
+                pass
+            # print(torrentTemp)
+
+    MagnetTemp = list(set(MagnetTemp+torrentTemp+trackerListFileNames[ 'AT_all']))
+    print('共获取了 %s 条不同的Trackers'%len(MagnetTemp))
+    trackerListHandler(MagnetTemp)
+    print(trackerListFileNames)
+    for i in trackerListFileNames:
+        print('%s:%s'%(i,trackerListFileNames[i]))
+        trackerList(trackerListFileNames[i],i)
+    # 写入readme
+    readmeEditor()
+    # 上传github
+    autoGithub(1)
+    # 循环调用，下一次调用为一天后
+    # printTime(3600)
+
+if __name__ == '__main__':
+    printTime(5)
+    # getHtml()
+
+
+
+

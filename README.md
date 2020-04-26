@@ -5,17 +5,27 @@
 还在为下载XX神社、爱X幕等等动漫资源即使加入trackerslist也没有速度而犯愁吗？  
 这里的Trackers将更有对二次元资源下载加速的针对性。
 
-#### 更新时间（Updated）: 2020-04-26 12:02:52 
-该项目还在运行测试阶段
-* AT_best(更新 25 个跟踪器): https://raw.githubusercontent.com/DeSireFire/animeTrackerList/master/AT_best.txt 
-* AT_all(更新 304 个跟踪器): https://raw.githubusercontent.com/DeSireFire/animeTrackerList/master/AT_all.txt 
-* AT_all_udp(更新 10 个跟踪器): https://raw.githubusercontent.com/DeSireFire/animeTrackerList/master/AT_all_udp.txt 
-* AT_all_http(更新 302 个跟踪器): https://raw.githubusercontent.com/DeSireFire/animeTrackerList/master/AT_all_http.txt 
-* AT_all_https(更新 76 个跟踪器): https://raw.githubusercontent.com/DeSireFire/animeTrackerList/master/AT_all_https.txt 
-* AT_all_ws(更新 5 个跟踪器): https://raw.githubusercontent.com/DeSireFire/animeTrackerList/master/AT_all_ws.txt 
-* AT_best_ip(更新 11 个跟踪器): https://raw.githubusercontent.com/DeSireFire/animeTrackerList/master/AT_best_ip.txt 
-* AT_all_ip(更新 17 个跟踪器): https://raw.githubusercontent.com/DeSireFire/animeTrackerList/master/AT_all_ip.txt 
-* AT_bad(更新 137 个跟踪器): https://raw.githubusercontent.com/DeSireFire/animeTrackerList/master/AT_bad.txt 
+#### 更新时间（Updated）: 2020-04-26 14:13:19 
+名称带有aria2字样的，使用逗号分隔，其余为换行  
+* AT_best(更新 25): https://raw.githubusercontent.com/DeSireFire/animeTrackerList/master/AT_best.txt 
+* AT_all(更新 136): https://raw.githubusercontent.com/DeSireFire/animeTrackerList/master/AT_all.txt 
+* AT_all_udp(更新 4): https://raw.githubusercontent.com/DeSireFire/animeTrackerList/master/AT_all_udp.txt 
+* AT_all_http(更新 113): https://raw.githubusercontent.com/DeSireFire/animeTrackerList/master/AT_all_http.txt 
+* AT_all_https(更新 17): https://raw.githubusercontent.com/DeSireFire/animeTrackerList/master/AT_all_https.txt 
+* AT_all_ws(更新 2): https://raw.githubusercontent.com/DeSireFire/animeTrackerList/master/AT_all_ws.txt 
+* AT_best_ip(更新 0): https://raw.githubusercontent.com/DeSireFire/animeTrackerList/master/AT_best_ip.txt 
+* AT_all_ip(更新 2): https://raw.githubusercontent.com/DeSireFire/animeTrackerList/master/AT_all_ip.txt 
+* AT_bad(更新 94): https://raw.githubusercontent.com/DeSireFire/animeTrackerList/master/AT_bad.txt 
+
+* ATaria2_best(更新 25): https://raw.githubusercontent.com/DeSireFire/animeTrackerList/master/ATaria2_best.txt 
+* ATaria2_all(更新 136): https://raw.githubusercontent.com/DeSireFire/animeTrackerList/master/ATaria2_all.txt 
+* ATaria2_all_udp(更新 4): https://raw.githubusercontent.com/DeSireFire/animeTrackerList/master/ATaria2_all_udp.txt 
+* ATaria2_all_http(更新 113): https://raw.githubusercontent.com/DeSireFire/animeTrackerList/master/ATaria2_all_http.txt 
+* ATaria2_all_https(更新 17): https://raw.githubusercontent.com/DeSireFire/animeTrackerList/master/ATaria2_all_https.txt 
+* ATaria2_all_ws(更新 2): https://raw.githubusercontent.com/DeSireFire/animeTrackerList/master/ATaria2_all_ws.txt 
+* ATaria2_best_ip(更新 0): https://raw.githubusercontent.com/DeSireFire/animeTrackerList/master/ATaria2_best_ip.txt 
+* ATaria2_all_ip(更新 2): https://raw.githubusercontent.com/DeSireFire/animeTrackerList/master/ATaria2_all_ip.txt 
+* ATaria2_bad(更新 94): https://raw.githubusercontent.com/DeSireFire/animeTrackerList/master/ATaria2_bad.txt 
 
 ##### 功能介绍（这部分功能，尚未完成）
 * 陆续支持以下站点的磁铁链接TrackerList整理
@@ -105,13 +115,13 @@ http://tracker.tfile.me/announce
 * 有事情联系我？ => [Open a new issue](https://github.com/DeSireFire/animeTrackerList/issues/new)
 
 ##### Todo
-* ~~要整合 trackerslist 项目中的trackers~~	 
 * 还有两个网址的tracker没有收集  
 * 实现api接口
 * 更详细的使用说明
-* ~~解决网站挂了，造成阻塞~~  
+
 
 ##### 升级日志
+* 添加aria2支持，增加使用逗号分隔的trackers
 * 整理一下readme的排版
 * 更新频率改为正午和凌晨0点两次
 * 缩短BT种子测试时间,修复去重时出现的错误
