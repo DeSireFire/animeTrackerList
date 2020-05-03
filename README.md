@@ -5,33 +5,69 @@
 还在为下载XX神社、爱X幕等等动漫资源即使加入trackerslist也没有速度而犯愁吗？  
 这里的Trackers将更有对二次元资源下载加速的针对性。
 
-h1
+` 点个Star嘛~又不麻烦。 ` 让我知道我是在做一件有意义的事情，感谢支持。
 
-#### 更新时间（Updated）: 2020-05-03 18:34:11 
+
+#### 更新时间（Updated）: 2020-05-03 20:05:47 
 
 > RAW
 
+```text
 * AT_best(更新 25): https://raw.githubusercontent.com/DeSireFire/animeTrackerList/master/AT_best.txt 
-* AT_all(更新 102): https://raw.githubusercontent.com/DeSireFire/animeTrackerList/master/AT_all.txt 
-* AT_all_udp(更新 4): https://raw.githubusercontent.com/DeSireFire/animeTrackerList/master/AT_all_udp.txt 
-* AT_all_http(更新 75): https://raw.githubusercontent.com/DeSireFire/animeTrackerList/master/AT_all_http.txt 
-* AT_all_https(更新 21): https://raw.githubusercontent.com/DeSireFire/animeTrackerList/master/AT_all_https.txt 
+* AT_all(更新 81): https://raw.githubusercontent.com/DeSireFire/animeTrackerList/master/AT_all.txt 
+* AT_all_udp(更新 5): https://raw.githubusercontent.com/DeSireFire/animeTrackerList/master/AT_all_udp.txt 
+* AT_all_http(更新 55): https://raw.githubusercontent.com/DeSireFire/animeTrackerList/master/AT_all_http.txt 
+* AT_all_https(更新 19): https://raw.githubusercontent.com/DeSireFire/animeTrackerList/master/AT_all_https.txt 
 * AT_all_ws(更新 2): https://raw.githubusercontent.com/DeSireFire/animeTrackerList/master/AT_all_ws.txt 
 * AT_best_ip(更新 0): https://raw.githubusercontent.com/DeSireFire/animeTrackerList/master/AT_best_ip.txt 
 * AT_all_ip(更新 0): https://raw.githubusercontent.com/DeSireFire/animeTrackerList/master/AT_all_ip.txt 
-* AT_bad(更新 207): https://raw.githubusercontent.com/DeSireFire/animeTrackerList/master/AT_bad.txt 
+* AT_bad(更新 199): https://raw.githubusercontent.com/DeSireFire/animeTrackerList/master/AT_bad.txt 
+```
 
 > Aria2 逗号分隔
 
+```text
 * ATaria2_best(更新 25): https://raw.githubusercontent.com/DeSireFire/animeTrackerList/master/ATaria2_best.txt 
-* ATaria2_all(更新 102): https://raw.githubusercontent.com/DeSireFire/animeTrackerList/master/ATaria2_all.txt 
-* ATaria2_all_udp(更新 4): https://raw.githubusercontent.com/DeSireFire/animeTrackerList/master/ATaria2_all_udp.txt 
-* ATaria2_all_http(更新 75): https://raw.githubusercontent.com/DeSireFire/animeTrackerList/master/ATaria2_all_http.txt 
-* ATaria2_all_https(更新 21): https://raw.githubusercontent.com/DeSireFire/animeTrackerList/master/ATaria2_all_https.txt 
+* ATaria2_all(更新 81): https://raw.githubusercontent.com/DeSireFire/animeTrackerList/master/ATaria2_all.txt 
+* ATaria2_all_udp(更新 5): https://raw.githubusercontent.com/DeSireFire/animeTrackerList/master/ATaria2_all_udp.txt 
+* ATaria2_all_http(更新 55): https://raw.githubusercontent.com/DeSireFire/animeTrackerList/master/ATaria2_all_http.txt 
+* ATaria2_all_https(更新 19): https://raw.githubusercontent.com/DeSireFire/animeTrackerList/master/ATaria2_all_https.txt 
 * ATaria2_all_ws(更新 2): https://raw.githubusercontent.com/DeSireFire/animeTrackerList/master/ATaria2_all_ws.txt 
 * ATaria2_best_ip(更新 0): https://raw.githubusercontent.com/DeSireFire/animeTrackerList/master/ATaria2_best_ip.txt 
 * ATaria2_all_ip(更新 0): https://raw.githubusercontent.com/DeSireFire/animeTrackerList/master/ATaria2_all_ip.txt 
-* ATaria2_bad(更新 207): https://raw.githubusercontent.com/DeSireFire/animeTrackerList/master/ATaria2_bad.txt 
+* ATaria2_bad(更新 199): https://raw.githubusercontent.com/DeSireFire/animeTrackerList/master/ATaria2_bad.txt 
+```
+
+> 缓存加速(部分用户反映github有时无法访问,可使用此链接)
+
+接口测试ing  
+
+```text
+注意 : 若不添加get参数或参数不正确时,默认返回AT-best的内容。因为get方式传参的原因,下划线"_"使用了小横线"-"代替。
+
+[RAW]
+https://at.raxianch.moe/?type=AT-best
+https://at.raxianch.moe/?type=AT-all
+https://at.raxianch.moe/?type=AT-all-udp
+https://at.raxianch.moe/?type=AT-all-http
+https://at.raxianch.moe/?type=AT-all-https
+https://at.raxianch.moe/?type=AT-all-ws
+https://at.raxianch.moe/?type=AT-best-ip
+https://at.raxianch.moe/?type=AT-all-ip
+https://at.raxianch.moe/?type=AT-bad
+
+[Aria2]
+https://at.raxianch.moe/?type=ATaria2-best
+https://at.raxianch.moe/?type=ATaria2-all
+https://at.raxianch.moe/?type=ATaria2-all-udp
+https://at.raxianch.moe/?type=ATaria2-all-http
+https://at.raxianch.moe/?type=ATaria2-all-https
+https://at.raxianch.moe/?type=ATaria2-all-ws
+https://at.raxianch.moe/?type=ATaria2-best-ip
+https://at.raxianch.moe/?type=ATaria2-all-ip
+https://at.raxianch.moe/?type=ATaria2-bad
+```
+
 
 ##### 功能介绍（这部分功能，尚未完成）
 * 陆续支持以下站点的磁铁链接TrackerList整理
@@ -122,11 +158,12 @@ http://tracker.tfile.me/announce
 
 ##### Todo
 * 还有两个网址的tracker没有收集  
-* 实现api接口
 * 更详细的使用说明
 
 
 ##### 升级日志
+* 实现api接口,压缩URL长度和使用CF做访问优化
+* 修改readme的排版
 * 优化检测逻辑
 * fix 部分trackerURL格式不正确的bug
 * 添加aria2支持，增加使用逗号分隔的trackers
