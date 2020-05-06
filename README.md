@@ -8,16 +8,16 @@
 ` 点个Star嘛~又不麻烦。 ` 让我知道我是在做一件有意义的事情，感谢支持。
 
 
-#### 更新时间（Updated）: 2020-05-06 00:03:17 
+#### 更新时间（Updated）: 2020-05-06 12:03:16 
 
 > RAW
 
 ```text
 * AT_best(更新 25): https://raw.githubusercontent.com/DeSireFire/animeTrackerList/master/AT_best.txt 
-* AT_all(更新 133): https://raw.githubusercontent.com/DeSireFire/animeTrackerList/master/AT_all.txt 
+* AT_all(更新 135): https://raw.githubusercontent.com/DeSireFire/animeTrackerList/master/AT_all.txt 
 * AT_all_udp(更新 6): https://raw.githubusercontent.com/DeSireFire/animeTrackerList/master/AT_all_udp.txt 
-* AT_all_http(更新 105): https://raw.githubusercontent.com/DeSireFire/animeTrackerList/master/AT_all_http.txt 
-* AT_all_https(更新 32): https://raw.githubusercontent.com/DeSireFire/animeTrackerList/master/AT_all_https.txt 
+* AT_all_http(更新 107): https://raw.githubusercontent.com/DeSireFire/animeTrackerList/master/AT_all_http.txt 
+* AT_all_https(更新 33): https://raw.githubusercontent.com/DeSireFire/animeTrackerList/master/AT_all_https.txt 
 * AT_all_ws(更新 2): https://raw.githubusercontent.com/DeSireFire/animeTrackerList/master/AT_all_ws.txt 
 * AT_best_ip(更新 0): https://raw.githubusercontent.com/DeSireFire/animeTrackerList/master/AT_best_ip.txt 
 * AT_all_ip(更新 1): https://raw.githubusercontent.com/DeSireFire/animeTrackerList/master/AT_all_ip.txt 
@@ -28,10 +28,10 @@
 
 ```text
 * ATaria2_best(更新 25): https://raw.githubusercontent.com/DeSireFire/animeTrackerList/master/ATaria2_best.txt 
-* ATaria2_all(更新 133): https://raw.githubusercontent.com/DeSireFire/animeTrackerList/master/ATaria2_all.txt 
+* ATaria2_all(更新 135): https://raw.githubusercontent.com/DeSireFire/animeTrackerList/master/ATaria2_all.txt 
 * ATaria2_all_udp(更新 6): https://raw.githubusercontent.com/DeSireFire/animeTrackerList/master/ATaria2_all_udp.txt 
-* ATaria2_all_http(更新 105): https://raw.githubusercontent.com/DeSireFire/animeTrackerList/master/ATaria2_all_http.txt 
-* ATaria2_all_https(更新 32): https://raw.githubusercontent.com/DeSireFire/animeTrackerList/master/ATaria2_all_https.txt 
+* ATaria2_all_http(更新 107): https://raw.githubusercontent.com/DeSireFire/animeTrackerList/master/ATaria2_all_http.txt 
+* ATaria2_all_https(更新 33): https://raw.githubusercontent.com/DeSireFire/animeTrackerList/master/ATaria2_all_https.txt 
 * ATaria2_all_ws(更新 2): https://raw.githubusercontent.com/DeSireFire/animeTrackerList/master/ATaria2_all_ws.txt 
 * ATaria2_best_ip(更新 0): https://raw.githubusercontent.com/DeSireFire/animeTrackerList/master/ATaria2_best_ip.txt 
 * ATaria2_all_ip(更新 1): https://raw.githubusercontent.com/DeSireFire/animeTrackerList/master/ATaria2_all_ip.txt 
