@@ -12,12 +12,10 @@ http://tracker.fastdownload.xyz/announce
 http://87.248.186.252:8080/announce
 http://retracker.goodline.info/announce
 http://tracker.tfile.me:80/announce.php
-http://trun.tom.ru/announce
 https://tracker.fastdownload.xyz/announce
 http://tracker.prq.to/announce
 http://208.67.16.113:8000/announce
 http://tracker4.emce.org:12345/announce
-http://tracker.btcake.com/announce
 http://tracker.animeun.com:6969/announce
 http://tracker.prq.to/announce.php
 http://bt.sc-ol.com:2710/announce
@@ -26,13 +24,11 @@ http://5.2.79.22:6969/announce
 http://bittracker.ru/announce
 http://gwp2-v19.rinet.ru/announce
 https://tr.bangumi.moe.9696/announce
-http://tracker.yoshi210.com:6969/announce
 http://tracker.bz/announce
 http://tracker.ipv6tracker.ru/announce
 http://opentracker.xyz/announce
 http://amigacity.xyz:6969/announce
 http://ipv4.tracker.harry.lu/annouce
-http://tracker.zerobytes.xyz:1337/announce
 http://retracker.mgts.by/announce
 wss://ltrackr.iamhansen.xyz:443/announce
 http://tracker.mg64.net:6881/announce
@@ -40,9 +36,11 @@ udp://tr.bangumi.moe:6969/announce
 http://tracker.bt-hash.com/announce
 http://pubt.net:2710/announce
 http://tracker2.wasabii.com.tw:6969/announce
+https://tracker.vectahosting.eu:2053/announce
 http://tracker.ktxp.com:7070/announce
 http://retracker.hotplug.ru:2710/announce
 http://tracker.grepler.com:6969/announce
+http://182.150.53.61:8080/announce
 http://tracker.dmhy.org:8000/announce
 https://tracker.fastdownload.xyz:443/announce
 http://tracker01.loveapp.com:6789/announce
@@ -53,7 +51,6 @@ http://bt.artvid.ru:6969/announce
 http://tk.nvacg.org:3333/announce
 http://tracker.tfile.me/announce.php
 https://open.kickasstracker.com/announce
-http://51.15.55.204:1337/announce
 https://tr.bangumi.moe:9696/announce
 http://tracker.tfile.co:80/announce
 http://tracker.videodrugproject.com/announce
@@ -97,7 +94,6 @@ http://retracker.local/announce
 http://52.29.11.73:6969/announce
 http://[2001:19f0:6c01:1b7d:5400:1ff:fefc:3c2a]:6969/announce
 http://retracker.telecom.by/announce
-http://pow7.com/announce
 http://tracker.tfile.co/announce
 http://tracker.bz:80/announce
 http://tracker1.wasabii.com.tw:6969/announce
@@ -118,7 +114,6 @@ http://tracker.comicat.org/announce
 http://p4p.arenabg.com:1337/announce
 http://share.came,cn:8080/announce
 http://opentracker.xyz:80/announce
-http://0d.kebhana.mx:443/announce
 http://torrent.nwps.ws:6969/announce
 http://tracker.skyts.cc:6969/announce
 #+localhost+name+resolution+is+handled+within+DNS+itself.
@@ -135,11 +130,10 @@ http://mgtracker.org:2710/announce
 http://[2a02:c205:2026:1682::1]:443/announce
 http://bittracker.ru:80/announce
 http://retracker.adminko.org:80/announce
+http://tr.bangumi.moe:6969/announce
 http://80.209.252.132:1337/announce
 #+Copyright+(c)+1993-2009+Microsoft+Corp.
-http://pow7.com:80/announce
 http://tracker.baravik.org:6970/announce
-http://tracker.skyts.cn:6969/announce
 http://tracker.comicat.org:2015/announce
 http://tracker.xiaoduola.xyz:6969/announce
 http://www.proxmox.com:6969/announce
@@ -175,9 +169,7 @@ http://tracker.kisssub.org/announce
 http://fxtt.ru/announce
 http://173.254.204.71:1096/announce
 http://tracker.ipv6tracker.org/announce
-http://servandroidkino.ru/announce
 http://seeders-paradise.org/announce
-http://trun.tom.ru:80/announce
 http://198.177.123.164/announce
 http://pubt.in/announce
 http://91.218.230.81:6969/announce
@@ -188,7 +180,6 @@ http://tracker.xfsub.com:6868/announce
 http://tracker.internetwarriors.net:1337/announce
 http://torrent.gresille.org/announce
 http://52.58.128.163:6969/announce
-http://tracker3.itzmx.com:6961/announce
 http://tracker4.itzmx.com:2710/announce
 http://[2a04:ac00:1:3dd8::1:2710]:2710/announce
 http://tracker.torrentyorg.pl/announce
