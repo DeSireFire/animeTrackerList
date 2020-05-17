@@ -85,6 +85,7 @@ https://at.raxianch.moe/?type=ATaria2-bad
 > http://mikanani.me  
 > http://www.nyaa.si  
 > https://share.acgnx.se  
+> https://www.anirena.com  
 > ~~http://www.kisssub.org~~  
 * 检测 tracker 地址是否有效，tracker 地址去重。
 * 机器人会自动检查跟踪器并更新列表。
@@ -165,11 +166,26 @@ http://tracker.tfile.me/announce
 * 有事情联系我？ => [Open a new issue](https://github.com/DeSireFire/animeTrackerList/issues/new)
 
 ##### Todo
-* 还有两个网址的tracker没有收集  
 * 更详细的使用说明
 
+##### other
+[Power2All](https://github.com/Power2All) 允许本项目 对 [anirena](https://github.com/Power2All) 的收录。爱她~
+
+```text
+推荐一下~
+
+各位发布者，
+欢迎到anirena发布种子资源，
+anirena的tracker性能在天朝还是挺不错的。
+但是注意遵守人家的规则。
+```
 
 ##### 升级日志
+* 添加对anirena的专项采集支持
+* 更新README
+* 开发处理速度更快的种子检测方案
+* 优化tracker地址合法性检测
+* 迁移部署服务器
 * 实现api接口,压缩URL长度和使用CF做访问优化
 * 修改readme的排版
 * 优化检测逻辑
