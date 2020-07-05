@@ -112,3 +112,10 @@ udp://nagios.tks.sumy.ua:80/announce
 udp://ultra.zt.ua:6969/announce
 udp://api.bitumconference.ru:6969/announce
 udp://forum.m3x.org:6969/announce
+udp://tracker.skyts.net:6969/announce
+udp://tracker.dler.org:6969/announce
+udp://tracker.zerobytes.xyz:1337/announce
+udp://37.235.174.46:2710/announce
+udp://retracker.sevstar.net:2710/announce
+udp://tracker.jae.moe:6969/announce
+udp://tracker4.itzmx.com:2710/announce
