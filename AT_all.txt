@@ -357,3 +357,6 @@ udp://retracker.lanta-net.ru:2710/announce
 udp://cx42light.cn:39652/announce
 https://t1.leech.ie/announce
 udp://bt2.archive.org:6969/announce
+http://0123456789nonexistent.com/announce
+http://0123456789nonexistent.com:80/announce
+https://open.kickasstracker.com:443/announce
