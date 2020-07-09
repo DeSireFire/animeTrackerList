@@ -360,3 +360,5 @@ udp://bt2.archive.org:6969/announce
 http://0123456789nonexistent.com/announce
 http://0123456789nonexistent.com:80/announce
 https://open.kickasstracker.com:443/announce
+https://tracker.bittor.xyz/announce
+http://ns1.mindcraft.si.eu.org:6969/announce
