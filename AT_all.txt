@@ -336,3 +336,6 @@ http://0123456789nonexistent.com/announce
 http://torrentclub.tech:6969/announce
 http://tr.kxmp.cf/announce
 http://trun.tom.ru/announce
+udp://p4p.arenabg.com:1337/announce
+https://tracker.publictorrent.net/announce
+http://0123456789nonexistent.com:80/announce
