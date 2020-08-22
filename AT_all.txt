@@ -454,3 +454,8 @@ http://tracker.mononoke-bt.org:2401/baabb89ff287bbbaddf51c482f467324/announce
 http://tracker.torrent.zond.org:80/announce
 http://tracker.noobsubs.net:80/announce
 http://open.kickasstracker.com/announce
+https://4.tracker.eu.org:443/announce
+udp://tracker.kamigami.org:2710/announce
+http://tracker.kamigami.org:2710/announce
+http://tracker.electro-torrent.pl/announce
+https://2.tracker.eu.org:443/announce
