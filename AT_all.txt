@@ -459,3 +459,6 @@ udp://tracker.kamigami.org:2710/announce
 http://tracker.kamigami.org:2710/announce
 http://tracker.electro-torrent.pl/announce
 https://2.tracker.eu.org:443/announce
+https://3.tracker.eu.org:443/announce
+http://p4p.arenabg.com:1337/announce
+https://3.tracker.eu.org/announce
