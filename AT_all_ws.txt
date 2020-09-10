@@ -1,2 +1,7 @@
+wss://open.tube:443/tracker/socket
 wss://tracker.openwebtorrent.com:443/announce
+wss://video.blender.org:443/tracker/socket
+wss://tracker.files.fm:7073/announce
+wss://tube.privacytools.io:443/tracker/socket
+wss://hub.bugout.link:443/announce
 wss://tracker.btorrent.xyz:443/announce
