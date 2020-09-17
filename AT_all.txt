@@ -486,3 +486,6 @@ http://tracker.bittorrent.am/announce
 https://t3.leech.ie:443/announce
 https://t2.leech.ie:443/announce
 http://t3.leech.ie:80/announce
+https://tracker.parrotlinux.org:443/announce
+udp://tracker.leechers-paradise.org:6969/announce
+http://tracker.leechers-paradise.org:6969/announce
