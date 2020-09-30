@@ -105,3 +105,5 @@ udp://wassermann.online:6969/announce
 udp://ultra.zt.ua:6969/announce
 udp://nagios.tks.sumy.ua:80/announce
 udp://api.bitumconference.ru:6969/announce
+udp://tracker.open-tracker.org:1337/announce
+udp://drumkitx.com:6969/announce
