@@ -333,3 +333,6 @@ http://tracker.torrentyorg.pl:80/announce
 http://tracker.internetwarriors.net:1337/announce
 http://www.loushao.net:8080/announce
 udp://www.loushao.net:8080/announce
+udp://cx42light.cn:39652/announce
+http://cx42light.cn:39652/announce
+udp://tracker.sbsub.com:2710/announce
