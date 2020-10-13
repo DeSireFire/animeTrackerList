@@ -396,3 +396,6 @@ http://tracker.bittorrent.am:80/announce
 udp://tsundere.pw:6969/announce
 http://tracker.btcake.com/announce
 http://newtoncity.org:6969/announce
+http://t.quic.ws/announce
+udp://retracker01-msk-virt.corbina.net:80/announce
+udp://newtoncity.org:6969/announce
