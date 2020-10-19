@@ -406,3 +406,4 @@ http://gshk.happy-host.com/test/announce.php
 https://www.wareztorrent.com:443/announce
 https://www.wareztorrent.com/announce
 http://tracker.bittorrent.am/announceName
+udp://104.238.198.186:8000/announce
