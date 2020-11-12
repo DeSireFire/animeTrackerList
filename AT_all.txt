@@ -193,3 +193,6 @@ udp://tr.bangumi.moe:6969/announce
 http://p4p.arenabg.com:1337/announce
 http://195.201.31.194:80/announce
 http://0123456789nonexistent.com:80/announce
+https://tr.bangumi.moe:6969/announce
+https://tracker.lelux.fi:443/announce
+http://tracker.lelux.fi:80/announce
