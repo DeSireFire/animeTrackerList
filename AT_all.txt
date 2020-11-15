@@ -317,3 +317,6 @@ udp://tracker.skyts.net:6969/announce
 udp://movies.zsw.ca:6969/announce
 udp://edu.uifr.ru:6969/announce
 http://tracker.gcvchp.com:2710/announce
+http://51.15.55.204:1337/announce
+udp://tracker.zerobytes.xyz:1337/announce
+http://t.quic.ws/announce
