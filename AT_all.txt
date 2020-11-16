@@ -321,3 +321,5 @@ http://51.15.55.204:1337/announce
 udp://tracker.zerobytes.xyz:1337/announce
 http://t.quic.ws/announce
 udp://tracker4.itzmx.com:2710/announce
+https://explodie.org:6969/announce
+https://tr.kxmp.cf:80/announce
