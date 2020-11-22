@@ -385,3 +385,5 @@ udp://tracker.0x.tf:6969/announce
 udp://api.bitumconference.ru:6969/announce
 http://93.92.64.5:80/announce
 http://retracker.krs-ix.ru:80/announce
+https://104.244.79.229:443/announce
+http://104.244.79.229:80/announce
