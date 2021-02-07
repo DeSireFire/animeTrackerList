@@ -672,3 +672,5 @@ http://95.217.161.135/announce
 http://openbittorrent.com/announce
 http://home.yxgz.club:6969/announce
 udp://tracker-udp.anirena.com:80/announce
+https://tracker.anirena.com:443/announce
+https://tracker.cryental.dev:443/announce
