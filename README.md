@@ -9,7 +9,26 @@
 
 让我知道我是在做一件有意义的事情，感谢支持。
 
+# Notice
+
+**重要通知**
 ```text
+https://at.raxianch.moe/ 4月1日起，接口将发生变更。
+
+https://at.raxianch.moe/?type=AT-best 这样的请求方式将废止。
+改为(其他列表以此类推)：
+http://at.raxianch.moe/AT_best.txt
+
+可用以下临时地址，查看和测试预览效果（临时接口截至4月1日）：
+http://atest.raxianch.moe/AT_best.txt
+```
+
+```text
+由于对接口的请求数量超过了10W次/天。
+所以，导致出现请求接口500错误的情况。
+哭笑不得，感谢朋友们的热情和支持。
+在此推荐使用jsdelivr做为cdn,来进行分流。
+
 还有，发布BT资源的人或者群体呐!!!
 能不能长点心，不要写些什么奇奇怪怪的tracker地址上来啊!!!
 地址中用中文符号“：、。”之类的，
@@ -48,9 +67,48 @@
 
 > 缓存加速(部分用户反映github有时无法访问,可使用此链接)
 
-接口测试ing  
+# CDN
+
+> Jsdelivr 【推荐】
 
 ```text
+Jsdelivr 全球访问速度都不错的。
+
+[RAW]
+https://cdn.jsdelivr.net/gh/DeSireFire/animeTrackerList@master/AT-best.txt
+https://cdn.jsdelivr.net/gh/DeSireFire/animeTrackerList@master/AT-all.txt
+https://cdn.jsdelivr.net/gh/DeSireFire/animeTrackerList@master/AT-all-udp.txt
+https://cdn.jsdelivr.net/gh/DeSireFire/animeTrackerList@master/AT-all-http.txt
+https://cdn.jsdelivr.net/gh/DeSireFire/animeTrackerList@master/AT-all-https.txt
+https://cdn.jsdelivr.net/gh/DeSireFire/animeTrackerList@master/AT-all-ws.txt
+https://cdn.jsdelivr.net/gh/DeSireFire/animeTrackerList@master/AT-best-ip.txt
+https://cdn.jsdelivr.net/gh/DeSireFire/animeTrackerList@master/AT-all-ip.txt
+https://cdn.jsdelivr.net/gh/DeSireFire/animeTrackerList@master/AT-bad.txt
+
+[Aria2]
+https://cdn.jsdelivr.net/gh/DeSireFire/animeTrackerList@master/ATaria2-best.txt
+https://cdn.jsdelivr.net/gh/DeSireFire/animeTrackerList@master/ATaria2-all.txt
+https://cdn.jsdelivr.net/gh/DeSireFire/animeTrackerList@master/ATaria2-all-udp.txt
+https://cdn.jsdelivr.net/gh/DeSireFire/animeTrackerList@master/ATaria2-all-http.txt
+https://cdn.jsdelivr.net/gh/DeSireFire/animeTrackerList@master/ATaria2-all-https.txt
+https://cdn.jsdelivr.net/gh/DeSireFire/animeTrackerList@master/ATaria2-all-ws.txt
+https://cdn.jsdelivr.net/gh/DeSireFire/animeTrackerList@master/ATaria2-best-ip.txt
+https://cdn.jsdelivr.net/gh/DeSireFire/animeTrackerList@master/ATaria2-all-ip.txt
+https://cdn.jsdelivr.net/gh/DeSireFire/animeTrackerList@master/ATaria2-bad.txt
+```
+
+> 本地接口 
+
+```text
+https://at.raxianch.moe/ 4月1日起，接口将发生变更。
+
+https://at.raxianch.moe/?type=AT-best 这样的请求方式将废止。
+改为(其他列表以此类推)：
+http://at.raxianch.moe/AT_best.txt
+
+可用以下临时地址，查看和测试预览效果（临时接口截至4月1日）：
+http://atest.raxianch.moe/AT_best.txt
+
 注意 : 若不添加get参数或参数不正确时,默认返回AT-best的内容。因为get方式传参的原因,下划线"_"使用了小横线"-"代替。
 
 [RAW]
@@ -181,6 +239,7 @@ anirena的tracker性能在天朝还是挺不错的。
 ```
 
 ##### 升级日志
+* 本地接口变更通知
 * 添加对anirena的专项采集支持
 * 更新README
 * 开发处理速度更快的种子检测方案
