@@ -1,11 +1,16 @@
-# animeTrackerList
-动漫资源有效Tracker列表，动漫资源磁链死链解决和加速方案。
-公共的（针对ACG资源）BitTorrent跟踪器的更新列表  
+# animeTrackerList (๑•̀ㅂ•́)و✧
+
+[![GitHub license](https://img.shields.io/github/license/DeSireFire/animeTrackerList.svg?style=flat-square&color=FFC0CB)](https://github.com/DeSireFire/animeTrackerList/blob/master/LICENSE)
+[![GitHub Star](https://img.shields.io/github/stars/DeSireFire/animeTrackerList.svg?style=flat-square&label=Star&color=FFC0CB)](https://github.com/DeSireFire/animeTrackerList/stargazers)
+[![GitHub Fork](https://img.shields.io/github/forks/DeSireFire/animeTrackerList.svg?style=flat-square&label=Fork&color=FFC0CB)](https://github.com/DeSireFire/animeTrackerList/network/members)
+
+动漫资源有效Tracker列表，动漫资源磁链死链解决和加速方案。  
+公共的（针对ACG资源）BitTorrent跟踪器的更新列表。  
 此项目，有别于以已存在的github项目：trackerslist，为天朝限定。  
 还在为下载XX神社、爱X幕等等动漫资源即使加入trackerslist也没有速度而犯愁吗？  
 这里的Trackers将更有对二次元资源下载加速的针对性。
 
-` 点个Star嘛~又不麻烦。 ` 
+**点个Star嘛~又不麻烦。放心戳，不会爆炸的，我保证！→ [Da⭐ze~⭐](https://github.com/DeSireFire/animeTrackerList/stargazers)**   
 
 让我知道我是在做一件有意义的事情，感谢支持。
 
@@ -17,10 +22,12 @@ https://at.raxianch.moe/ 4月1日起，接口将发生变更。
 
 https://at.raxianch.moe/?type=AT-best 这样的请求方式将废止。
 改为(其他列表以此类推)：
-http://at.raxianch.moe/xxxx.txt
+https://at.raxianch.moe/xxxx.txt
 
 可用以下临时地址，查看和测试预览效果（临时接口截至4月1日）：
-* AT_best(更新 24): https://raw.githubusercontent.com/DeSireFire/animeTrackerList/master/AT_best.txt 
+https://atest.raxianch.moe/xxxx.txt
+
+详情查看本文 本地接口 一栏
 ```
 
 ```text
@@ -35,34 +42,34 @@ http://at.raxianch.moe/xxxx.txt
 带中括号[]和空格的Tracker地址是什么鬼！
 ```
 
-#### 更新时间（Updated）: 2021-03-04 21:14:17 
+#### 更新时间（Updated）: 2021-03-05 01:06:25 
 
 > RAW
 
 ```text
 * AT_best(更新 25): https://raw.githubusercontent.com/DeSireFire/animeTrackerList/master/AT_best.txt 
-* AT_all(更新 221): https://raw.githubusercontent.com/DeSireFire/animeTrackerList/master/AT_all.txt 
-* AT_all_udp(更新 7): https://raw.githubusercontent.com/DeSireFire/animeTrackerList/master/AT_all_udp.txt 
-* AT_all_http(更新 164): https://raw.githubusercontent.com/DeSireFire/animeTrackerList/master/AT_all_http.txt 
-* AT_all_https(更新 46): https://raw.githubusercontent.com/DeSireFire/animeTrackerList/master/AT_all_https.txt 
+* AT_all(更新 216): https://raw.githubusercontent.com/DeSireFire/animeTrackerList/master/AT_all.txt 
+* AT_all_udp(更新 8): https://raw.githubusercontent.com/DeSireFire/animeTrackerList/master/AT_all_udp.txt 
+* AT_all_http(更新 159): https://raw.githubusercontent.com/DeSireFire/animeTrackerList/master/AT_all_http.txt 
+* AT_all_https(更新 45): https://raw.githubusercontent.com/DeSireFire/animeTrackerList/master/AT_all_https.txt 
 * AT_all_ws(更新 5): https://raw.githubusercontent.com/DeSireFire/animeTrackerList/master/AT_all_ws.txt 
 * AT_best_ip(更新 0): https://raw.githubusercontent.com/DeSireFire/animeTrackerList/master/AT_best_ip.txt 
 * AT_all_ip(更新 3): https://raw.githubusercontent.com/DeSireFire/animeTrackerList/master/AT_all_ip.txt 
-* AT_bad(更新 357): https://raw.githubusercontent.com/DeSireFire/animeTrackerList/master/AT_bad.txt 
+* AT_bad(更新 361): https://raw.githubusercontent.com/DeSireFire/animeTrackerList/master/AT_bad.txt 
 ```
 
 > Aria2 逗号分隔
 
 ```text
-* ATaria2_best(更新 24): https://raw.githubusercontent.com/DeSireFire/animeTrackerList/master/ATaria2_best.txt 
-* ATaria2_all(更新 221): https://raw.githubusercontent.com/DeSireFire/animeTrackerList/master/ATaria2_all.txt 
-* ATaria2_all_udp(更新 7): https://raw.githubusercontent.com/DeSireFire/animeTrackerList/master/ATaria2_all_udp.txt 
-* ATaria2_all_http(更新 164): https://raw.githubusercontent.com/DeSireFire/animeTrackerList/master/ATaria2_all_http.txt 
-* ATaria2_all_https(更新 46): https://raw.githubusercontent.com/DeSireFire/animeTrackerList/master/ATaria2_all_https.txt 
+* ATaria2_best(更新 25): https://raw.githubusercontent.com/DeSireFire/animeTrackerList/master/ATaria2_best.txt 
+* ATaria2_all(更新 216): https://raw.githubusercontent.com/DeSireFire/animeTrackerList/master/ATaria2_all.txt 
+* ATaria2_all_udp(更新 8): https://raw.githubusercontent.com/DeSireFire/animeTrackerList/master/ATaria2_all_udp.txt 
+* ATaria2_all_http(更新 159): https://raw.githubusercontent.com/DeSireFire/animeTrackerList/master/ATaria2_all_http.txt 
+* ATaria2_all_https(更新 45): https://raw.githubusercontent.com/DeSireFire/animeTrackerList/master/ATaria2_all_https.txt 
 * ATaria2_all_ws(更新 5): https://raw.githubusercontent.com/DeSireFire/animeTrackerList/master/ATaria2_all_ws.txt 
 * ATaria2_best_ip(更新 0): https://raw.githubusercontent.com/DeSireFire/animeTrackerList/master/ATaria2_best_ip.txt 
 * ATaria2_all_ip(更新 3): https://raw.githubusercontent.com/DeSireFire/animeTrackerList/master/ATaria2_all_ip.txt 
-* ATaria2_bad(更新 357): https://raw.githubusercontent.com/DeSireFire/animeTrackerList/master/ATaria2_bad.txt 
+* ATaria2_bad(更新 361): https://raw.githubusercontent.com/DeSireFire/animeTrackerList/master/ATaria2_bad.txt 
 ```
 
 > 缓存加速(部分用户反映github有时无法访问,可使用此链接)
@@ -132,6 +139,8 @@ https://at.raxianch.moe/?type=ATaria2-all-ws
 https://at.raxianch.moe/?type=ATaria2-best-ip
 https://at.raxianch.moe/?type=ATaria2-all-ip
 https://at.raxianch.moe/?type=ATaria2-bad
+
+
 ```
 
 
@@ -139,7 +148,7 @@ https://at.raxianch.moe/?type=ATaria2-bad
 * 陆续支持以下站点的磁铁链接TrackerList整理
 > https://share.dmhy.org  
 > https://acg.rip  
-> http://bt.acg.gg  
+> ~~http://bt.acg.gg~~  
 > http://mikanani.me  
 > http://www.nyaa.si  
 > https://share.acgnx.se  
@@ -239,6 +248,8 @@ anirena的tracker性能在天朝还是挺不错的。
 ```
 
 ##### 升级日志
+* +#+registered+torrents +#+malfunction +#+duplicate+of+ 专项清理谜之字符串
+* 稍微美化一下readme
 * 被jsdelivr坑了一下
 * 本地接口变更通知
 * 添加对anirena的专项采集支持
