@@ -17,7 +17,7 @@ https://at.raxianch.moe/ 4月1日起，接口将发生变更。
 
 https://at.raxianch.moe/?type=AT-best 这样的请求方式将废止。
 改为(其他列表以此类推)：
-* AT_best(更新 25): https://raw.githubusercontent.com/DeSireFire/animeTrackerList/master/AT_best.txt 
+http://at.raxianch.moe/xxxx.txt
 
 可用以下临时地址，查看和测试预览效果（临时接口截至4月1日）：
 http://atest.raxianch.moe/AT_best.txt
