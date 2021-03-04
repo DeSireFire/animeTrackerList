@@ -75,26 +75,26 @@ http://atest.raxianch.moe/AT_best.txt
 Jsdelivr 全球访问速度都不错的。
 
 [RAW]
-https://cdn.jsdelivr.net/gh/DeSireFire/animeTrackerList@master/AT-best.txt
-https://cdn.jsdelivr.net/gh/DeSireFire/animeTrackerList@master/AT-all.txt
-https://cdn.jsdelivr.net/gh/DeSireFire/animeTrackerList@master/AT-all-udp.txt
-https://cdn.jsdelivr.net/gh/DeSireFire/animeTrackerList@master/AT-all-http.txt
-https://cdn.jsdelivr.net/gh/DeSireFire/animeTrackerList@master/AT-all-https.txt
-https://cdn.jsdelivr.net/gh/DeSireFire/animeTrackerList@master/AT-all-ws.txt
-https://cdn.jsdelivr.net/gh/DeSireFire/animeTrackerList@master/AT-best-ip.txt
-https://cdn.jsdelivr.net/gh/DeSireFire/animeTrackerList@master/AT-all-ip.txt
-https://cdn.jsdelivr.net/gh/DeSireFire/animeTrackerList@master/AT-bad.txt
+https://cdn.jsdelivr.net/gh/DeSireFire/animeTrackerList/AT_all.txt
+https://cdn.jsdelivr.net/gh/DeSireFire/animeTrackerList/AT_all.txt
+https://cdn.jsdelivr.net/gh/DeSireFire/animeTrackerList/AT_all_udp.txt
+https://cdn.jsdelivr.net/gh/DeSireFire/animeTrackerList/AT_all_http.txt
+https://cdn.jsdelivr.net/gh/DeSireFire/animeTrackerList/AT_all_https.txt
+https://cdn.jsdelivr.net/gh/DeSireFire/animeTrackerList/AT_all_ws.txt
+https://cdn.jsdelivr.net/gh/DeSireFire/animeTrackerList/AT_best_ip.txt
+https://cdn.jsdelivr.net/gh/DeSireFire/animeTrackerList/AT_all_ip.txt
+https://cdn.jsdelivr.net/gh/DeSireFire/animeTrackerList/AT_bad.txt
 
 [Aria2]
-https://cdn.jsdelivr.net/gh/DeSireFire/animeTrackerList@master/ATaria2-best.txt
-https://cdn.jsdelivr.net/gh/DeSireFire/animeTrackerList@master/ATaria2-all.txt
-https://cdn.jsdelivr.net/gh/DeSireFire/animeTrackerList@master/ATaria2-all-udp.txt
-https://cdn.jsdelivr.net/gh/DeSireFire/animeTrackerList@master/ATaria2-all-http.txt
-https://cdn.jsdelivr.net/gh/DeSireFire/animeTrackerList@master/ATaria2-all-https.txt
-https://cdn.jsdelivr.net/gh/DeSireFire/animeTrackerList@master/ATaria2-all-ws.txt
-https://cdn.jsdelivr.net/gh/DeSireFire/animeTrackerList@master/ATaria2-best-ip.txt
-https://cdn.jsdelivr.net/gh/DeSireFire/animeTrackerList@master/ATaria2-all-ip.txt
-https://cdn.jsdelivr.net/gh/DeSireFire/animeTrackerList@master/ATaria2-bad.txt
+https://cdn.jsdelivr.net/gh/DeSireFire/animeTrackerList/ATaria2_best.txt
+https://cdn.jsdelivr.net/gh/DeSireFire/animeTrackerList/ATaria2_all.txt
+https://cdn.jsdelivr.net/gh/DeSireFire/animeTrackerListATaria2_all_udp.txt
+https://cdn.jsdelivr.net/gh/DeSireFire/animeTrackerList/ATaria2_all_http.txt
+https://cdn.jsdelivr.net/gh/DeSireFire/animeTrackerList/ATaria2_all_https.txt
+https://cdn.jsdelivr.net/gh/DeSireFire/animeTrackerList/ATaria2_all_ws.txt
+https://cdn.jsdelivr.net/gh/DeSireFire/animeTrackerList/ATaria2_best_ip.txt
+https://cdn.jsdelivr.net/gh/DeSireFire/animeTrackerList/ATaria2_all_ip.txt
+https://cdn.jsdelivr.net/gh/DeSireFire/animeTrackerList/ATaria2_bad.txt
 ```
 
 > 本地接口 
@@ -239,6 +239,7 @@ anirena的tracker性能在天朝还是挺不错的。
 ```
 
 ##### 升级日志
+* 被jsdelivr坑了一下
 * 本地接口变更通知
 * 添加对anirena的专项采集支持
 * 更新README
