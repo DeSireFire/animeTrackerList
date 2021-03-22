@@ -42,7 +42,7 @@ https://atest.raxianch.moe/xxxx.txt
 带中括号[]和空格的Tracker地址是什么鬼！
 ```
 
-#### 更新时间（Updated）: 2021-03-22 12:07:30 
+#### 更新时间（Updated）: 2021-03-23 01:10:12 
 
 > RAW
 
@@ -55,7 +55,7 @@ https://atest.raxianch.moe/xxxx.txt
 * AT_all_ws(更新 3): https://raw.githubusercontent.com/DeSireFire/animeTrackerList/master/AT_all_ws.txt 
 * AT_best_ip(更新 1): https://raw.githubusercontent.com/DeSireFire/animeTrackerList/master/AT_best_ip.txt 
 * AT_all_ip(更新 4): https://raw.githubusercontent.com/DeSireFire/animeTrackerList/master/AT_all_ip.txt 
-* AT_bad(更新 310): https://raw.githubusercontent.com/DeSireFire/animeTrackerList/master/AT_bad.txt 
+* AT_bad(更新 331): https://raw.githubusercontent.com/DeSireFire/animeTrackerList/master/AT_bad.txt 
 ```
 
 > Aria2 逗号分隔
@@ -69,7 +69,7 @@ https://atest.raxianch.moe/xxxx.txt
 * ATaria2_all_ws(更新 3): https://raw.githubusercontent.com/DeSireFire/animeTrackerList/master/ATaria2_all_ws.txt 
 * ATaria2_best_ip(更新 1): https://raw.githubusercontent.com/DeSireFire/animeTrackerList/master/ATaria2_best_ip.txt 
 * ATaria2_all_ip(更新 4): https://raw.githubusercontent.com/DeSireFire/animeTrackerList/master/ATaria2_all_ip.txt 
-* ATaria2_bad(更新 310): https://raw.githubusercontent.com/DeSireFire/animeTrackerList/master/ATaria2_bad.txt 
+* ATaria2_bad(更新 331): https://raw.githubusercontent.com/DeSireFire/animeTrackerList/master/ATaria2_bad.txt 
 ```
 
 > 缓存加速(部分用户反映github有时无法访问,可使用此链接)
