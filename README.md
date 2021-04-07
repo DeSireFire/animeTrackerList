@@ -15,21 +15,6 @@
 让我知道我是在做一件有意义的事情，感谢支持。
 
 # Notice
-
-**重要通知**
-```text
-https://at.raxianch.moe/ 4月1日起，接口将发生变更。
-
-https://at.raxianch.moe/?type=AT-best 这样的请求方式将废止。
-改为(其他列表以此类推)：
-https://at.raxianch.moe/xxxx.txt
-
-可用以下临时地址，查看和测试预览效果（临时接口截至4月1日）：
-https://atest.raxianch.moe/xxxx.txt
-
-详情查看本文 本地接口 一栏
-```
-
 ```text
 由于对接口的请求数量超过了10W次/天。
 所以，导致出现请求接口500错误的情况。
@@ -81,8 +66,8 @@ https://atest.raxianch.moe/xxxx.txt
 ```text
 Jsdelivr 全球访问速度都不错的。
 
-[RAW]
-https://cdn.jsdelivr.net/gh/DeSireFire/animeTrackerList/AT_all.txt
+[RAW]       # 原生
+https://cdn.jsdelivr.net/gh/DeSireFire/animeTrackerList/AT_best.txt
 https://cdn.jsdelivr.net/gh/DeSireFire/animeTrackerList/AT_all.txt
 https://cdn.jsdelivr.net/gh/DeSireFire/animeTrackerList/AT_all_udp.txt
 https://cdn.jsdelivr.net/gh/DeSireFire/animeTrackerList/AT_all_http.txt
@@ -92,10 +77,10 @@ https://cdn.jsdelivr.net/gh/DeSireFire/animeTrackerList/AT_best_ip.txt
 https://cdn.jsdelivr.net/gh/DeSireFire/animeTrackerList/AT_all_ip.txt
 https://cdn.jsdelivr.net/gh/DeSireFire/animeTrackerList/AT_bad.txt
 
-[Aria2]
+[Aria2]     # ,号隔开，适配 Aria2等
 https://cdn.jsdelivr.net/gh/DeSireFire/animeTrackerList/ATaria2_best.txt
 https://cdn.jsdelivr.net/gh/DeSireFire/animeTrackerList/ATaria2_all.txt
-https://cdn.jsdelivr.net/gh/DeSireFire/animeTrackerListATaria2_all_udp.txt
+https://cdn.jsdelivr.net/gh/DeSireFire/animeTrackerList/ATaria2_all_udp.txt
 https://cdn.jsdelivr.net/gh/DeSireFire/animeTrackerList/ATaria2_all_http.txt
 https://cdn.jsdelivr.net/gh/DeSireFire/animeTrackerList/ATaria2_all_https.txt
 https://cdn.jsdelivr.net/gh/DeSireFire/animeTrackerList/ATaria2_all_ws.txt
@@ -107,40 +92,27 @@ https://cdn.jsdelivr.net/gh/DeSireFire/animeTrackerList/ATaria2_bad.txt
 > 本地接口 
 
 ```text
-https://at.raxianch.moe/ 4月1日起，接口将发生变更。
-
-https://at.raxianch.moe/?type=AT-best 这样的请求方式将废止。
-改为(其他列表以此类推)：
-http://at.raxianch.moe/AT_best.txt
-
-可用以下临时地址，查看和测试预览效果（临时接口截至4月1日）：
-http://atest.raxianch.moe/AT_best.txt
-
-注意 : 若不添加get参数或参数不正确时,默认返回AT-best的内容。因为get方式传参的原因,下划线"_"使用了小横线"-"代替。
-
 [RAW]
-https://at.raxianch.moe/?type=AT-best
-https://at.raxianch.moe/?type=AT-all
-https://at.raxianch.moe/?type=AT-all-udp
-https://at.raxianch.moe/?type=AT-all-http
-https://at.raxianch.moe/?type=AT-all-https
-https://at.raxianch.moe/?type=AT-all-ws
-https://at.raxianch.moe/?type=AT-best-ip
-https://at.raxianch.moe/?type=AT-all-ip
-https://at.raxianch.moe/?type=AT-bad
+https://at.raxianch.moe/AT_best.txt
+https://at.raxianch.moe/AT_all.txt
+https://at.raxianch.moe/AT_all_udp.txt
+https://at.raxianch.moe/AT_all_http.txt
+https://at.raxianch.moe/AT_all_https.txt
+https://at.raxianch.moe/AT_all_ws.txt
+https://at.raxianch.moe/AT_best_ip.txt
+https://at.raxianch.moe/AT_all_ip.txt
+https://at.raxianch.moe/AT_bad.txt
 
 [Aria2]
-https://at.raxianch.moe/?type=ATaria2-best
-https://at.raxianch.moe/?type=ATaria2-all
-https://at.raxianch.moe/?type=ATaria2-all-udp
-https://at.raxianch.moe/?type=ATaria2-all-http
-https://at.raxianch.moe/?type=ATaria2-all-https
-https://at.raxianch.moe/?type=ATaria2-all-ws
-https://at.raxianch.moe/?type=ATaria2-best-ip
-https://at.raxianch.moe/?type=ATaria2-all-ip
-https://at.raxianch.moe/?type=ATaria2-bad
-
-
+https://at.raxianch.moe/ATaria2_best.txt
+https://at.raxianch.moe/ATaria2_all.txt
+https://at.raxianch.moe/ATaria2_all_udp.txt
+https://at.raxianch.moe/ATaria2_all_http.txt
+https://at.raxianch.moe/ATaria2_all_https.txt
+https://at.raxianch.moe/ATaria2_all_ws.txt
+https://at.raxianch.moe/ATaria2_best_ip.txt
+https://at.raxianch.moe/ATaria2_all_ip.txt
+https://at.raxianch.moe/ATaria2_bad.txt
 ```
 
 
@@ -248,6 +220,7 @@ anirena的tracker性能在天朝还是挺不错的。
 ```
 
 ##### 升级日志
+* 将RAW接口中的tracker格式由换行分隔改为换行+空行分隔
 * +#+registered+torrents +#+malfunction +#+duplicate+of+ 专项清理谜之字符串
 * 稍微美化一下readme
 * 被jsdelivr坑了一下
