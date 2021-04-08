@@ -120,5 +120,8 @@ animeTrackerList(back).py
 Time_Machine.py
 AT.py
 test.py
+*old.py
 requirements.txt
 *.sh
+/loadtxt.py
+/best.txt

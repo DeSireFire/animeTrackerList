@@ -57,6 +57,20 @@
 * ATaria2_bad(更新 336): https://raw.githubusercontent.com/DeSireFire/animeTrackerList/master/ATaria2_bad.txt 
 ```
 
+> TurnLine 间隔空行分隔
+
+```text
+* ATline_best(更新 25): https://raw.githubusercontent.com/DeSireFire/animeTrackerList/master/ATline_best.txt 
+* ATline_all(更新 406): https://raw.githubusercontent.com/DeSireFire/animeTrackerList/master/ATline_all.txt 
+* ATline_all_udp(更新 27): https://raw.githubusercontent.com/DeSireFire/animeTrackerList/master/ATline_all_udp.txt 
+* ATline_all_http(更新 315): https://raw.githubusercontent.com/DeSireFire/animeTrackerList/master/ATline_all_http.txt 
+* ATline_all_https(更新 62): https://raw.githubusercontent.com/DeSireFire/animeTrackerList/master/ATline_all_https.txt 
+* ATline_all_ws(更新 3): https://raw.githubusercontent.com/DeSireFire/animeTrackerList/master/ATline_all_ws.txt 
+* ATline_best_ip(更新 1): https://raw.githubusercontent.com/DeSireFire/animeTrackerList/master/ATline_best_ip.txt 
+* ATline_all_ip(更新 5): https://raw.githubusercontent.com/DeSireFire/animeTrackerList/master/ATline_all_ip.txt 
+* ATline_bad(更新 336): https://raw.githubusercontent.com/DeSireFire/animeTrackerList/master/ATline_bad.txt 
+```
+
 > 缓存加速(部分用户反映github有时无法访问,可使用此链接)
 
 # CDN
@@ -87,6 +101,17 @@ https://cdn.jsdelivr.net/gh/DeSireFire/animeTrackerList/ATaria2_all_ws.txt
 https://cdn.jsdelivr.net/gh/DeSireFire/animeTrackerList/ATaria2_best_ip.txt
 https://cdn.jsdelivr.net/gh/DeSireFire/animeTrackerList/ATaria2_all_ip.txt
 https://cdn.jsdelivr.net/gh/DeSireFire/animeTrackerList/ATaria2_bad.txt
+
+[TurnLine]  # 每个tracker以空行分隔
+https://cdn.jsdelivr.net/gh/DeSireFire/animeTrackerList/ATline_best.txt
+https://cdn.jsdelivr.net/gh/DeSireFire/animeTrackerList/ATline_all.txt
+https://cdn.jsdelivr.net/gh/DeSireFire/animeTrackerList/ATline_all_udp.txt
+https://cdn.jsdelivr.net/gh/DeSireFire/animeTrackerList/ATline_all_http.txt
+https://cdn.jsdelivr.net/gh/DeSireFire/animeTrackerList/ATline_all_https.txt
+https://cdn.jsdelivr.net/gh/DeSireFire/animeTrackerList/ATline_all_ws.txt
+https://cdn.jsdelivr.net/gh/DeSireFire/animeTrackerList/ATline_best_ip.txt
+https://cdn.jsdelivr.net/gh/DeSireFire/animeTrackerList/ATline_all_ip.txt
+https://cdn.jsdelivr.net/gh/DeSireFire/animeTrackerList/ATline_bad.txt
 ```
 
 > 本地接口 
@@ -113,6 +138,17 @@ https://at.raxianch.moe/ATaria2_all_ws.txt
 https://at.raxianch.moe/ATaria2_best_ip.txt
 https://at.raxianch.moe/ATaria2_all_ip.txt
 https://at.raxianch.moe/ATaria2_bad.txt
+
+[TurnLine]
+https://at.raxianch.moe/ATline_best.txt
+https://at.raxianch.moe/ATline_all.txt
+https://at.raxianch.moe/ATline_all_udp.txt
+https://at.raxianch.moe/ATline_all_http.txt
+https://at.raxianch.moe/ATline_all_https.txt
+https://at.raxianch.moe/ATline_all_ws.txt
+https://at.raxianch.moe/ATline_best_ip.txt
+https://at.raxianch.moe/ATline_all_ip.txt
+https://at.raxianch.moe/ATline_bad.txt
 ```
 
 
@@ -220,6 +256,7 @@ anirena的tracker性能在天朝还是挺不错的。
 ```
 
 ##### 升级日志
+* RAW接口恢复为换行分隔，添加新的TureLine以空行分隔的格式
 * 将RAW接口中的tracker格式由换行分隔改为换行+空行分隔
 * +#+registered+torrents +#+malfunction +#+duplicate+of+ 专项清理谜之字符串
 * 稍微美化一下readme
