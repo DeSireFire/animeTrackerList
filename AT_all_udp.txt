@@ -15,3 +15,6 @@ udp://tracker4.itzmx.com:2710/announce
 udp://tracker.sbsub.com:2710/announce
 udp://tracker2.itzmx.com:6961/announce
 udp://retracker.lanta-net.ru:2710/announce
+udp://tracker.dler.org:6969/announce
+udp://rutorrent.frontline-mod.com:6969/announce
+udp://retracker.akado-ural.ru:80/announce
