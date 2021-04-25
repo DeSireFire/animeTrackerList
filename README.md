@@ -3,6 +3,7 @@
 [![GitHub license](https://img.shields.io/github/license/DeSireFire/animeTrackerList.svg?style=flat-square&color=FFC0CB)](https://github.com/DeSireFire/animeTrackerList/blob/master/LICENSE)
 [![GitHub Star](https://img.shields.io/github/stars/DeSireFire/animeTrackerList.svg?style=flat-square&label=Star&color=FFC0CB)](https://github.com/DeSireFire/animeTrackerList/stargazers)
 [![GitHub Fork](https://img.shields.io/github/forks/DeSireFire/animeTrackerList.svg?style=flat-square&label=Fork&color=FFC0CB)](https://github.com/DeSireFire/animeTrackerList/network/members)
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2FDeSireFire%2FanimeTrackerList.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2FDeSireFire%2FanimeTrackerList?ref=badge_shield)
 
 动漫资源有效Tracker列表，动漫资源磁链死链解决和加速方案。  
 公共的（针对ACG资源）BitTorrent跟踪器的更新列表。  
@@ -285,3 +286,7 @@ anirena的tracker性能在天朝还是挺不错的。
 * 优化采集算法，加快采集速度，优化排序，测试新的bestip判定方法，优化计时启动。
 * 修复tracker列表有冗余的问题
 * repo创建！
+
+
+## License
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2FDeSireFire%2FanimeTrackerList.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2FDeSireFire%2FanimeTrackerList?ref=badge_large)
