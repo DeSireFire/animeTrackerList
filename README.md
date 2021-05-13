@@ -244,6 +244,11 @@ http://tracker.tfile.me/announce
 ##### Todo
 * 更详细的使用说明
 
+##### star记录
+
+![Stargazers over time](https://starchart.cc/desirefire/animeTrackerList.svg)
+
+
 ##### other
 [Power2All](https://github.com/Power2All) 允许本项目 对 [anirena](https://github.com/Power2All) 的收录。爱她~
 
