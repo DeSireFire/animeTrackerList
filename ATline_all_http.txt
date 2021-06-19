@@ -106,9 +106,6 @@ http://51.254.249.186:6969/announce
 http://51.38.230.101/announce
 
 
-http://nyaa.tracker.wf:7777/announce
-
-
 http://t2.pow7.com:80/announce
 
 
@@ -134,9 +131,6 @@ http://tracker.sloppyta.co:80/announce
 
 
 http://tracker.trackerfix.com/announce
-
-
-http://www.zone-torrent.net:80/announce.php
 
 
 http://104.28.16.69/announce
@@ -173,9 +167,6 @@ http://datascene.net:80/announce.php
 
 
 http://tracker.anirena.com/announce
-
-
-http://datascene.net:80/announce.php
 
 
 http://siambit.org/announce.php
@@ -220,9 +211,6 @@ http://tracker.anirena.com:80/announce
 http://mediaclub.tv/announce
 
 
-http://mediaclub.tv/announce.php
-
-
 http://1337.abcvg.info:80/announce
 
 
@@ -251,15 +239,6 @@ http://torrent.mp3quran.net/announce.php
 
 
 http://bt2.edwardk.info:4040/announce
-
-
-http://torrent.mp3quran.net:80/announce.php
-
-
-http://torrentzilla.org/announce
-
-
-http://torrent-team.net/announce.php
 
 
 http://51.15.55.204:1337/announce
@@ -326,9 +305,6 @@ http://185.148.3.231/announce
 
 
 http://ns349743.ip-91-121-106.eu/announce
-
-
-http://bt.zlofenix.org:81/announce
 
 
 http://baibako.tv/announce
@@ -409,9 +385,6 @@ http://60-fps.org/bt:80/announce.php
 http://metal.iplay.ro/announce.php
 
 
-http://bt2.archive.org:6969/announce
-
-
 http://tracker-cdn.moeking.me:2095/announce
 
 
@@ -445,9 +418,6 @@ http://secure.pow7.com:80/announce
 http://bt.ali213.net:8000/announce
 
 
-http://www.shnflac.net/announce.php
-
-
 http://tracker2.torrentino.com/announce
 
 
@@ -469,9 +439,6 @@ http://tracker.gbitt.info:80/announce
 http://nuku.neko-network.net/t/announce.php
 
 
-http://mediaclub.tv/announce
-
-
 http://btx.anifilm.tv/announce.php
 
 
@@ -488,12 +455,6 @@ http://bt.unionpeer.org:777/announce
 
 
 http://tracker.bt4g.com:2095/announce
-
-
-http://www.xwt-classics.net/announce.php
-
-
-http://all4nothin.net/announce.php
 
 
 http://0d.kebhana.mx:443/announce
@@ -523,19 +484,10 @@ http://www.yuwabits.net/announce.php
 http://retracker.spark-rostov.ru/announce
 
 
-http://tracker.ali213.net:8000/announce
-
-
 http://tracker.tambovnet.org/announce.php
 
 
-http://tracker.kali.org:6969/announce
-
-
 http://tracker.zerobytes.xyz:1337/announce
-
-
-http://www.learnbits.me/announce.php
 
 
 http://ipv4announce.sktorrent.eu:6969/announce
@@ -566,9 +518,6 @@ http://torrent.ubuntu.com:6969/announce
 
 
 http://tracker.gigatorrents.ws:2710/announce
-
-
-http://tracker.files.fm:6969/announce
 
 
 http://bt.beatrice-raws.org:80/announce
@@ -619,9 +568,6 @@ http://tracker.noobsubs.net:80/announce
 http://tracker.openbittorrent.com/announce
 
 
-http://tracker.gigatorrents.ws:2710/announce
-
-
 http://tracker.moeking.me:6969/announce
 
 
@@ -640,19 +586,10 @@ http://www.wareztorrent.com:80/announce
 http://tracker3.dler.org:2710/announce
 
 
-http://big-boss-tracker.net/announce.php
-
-
 http://torrent.nwps.ws/announce
 
 
-http://bt.3dmgame.com:2710/announce
-
-
 http://torrent.rus.ec:2710/announce
-
-
-http://metal.iplay.ro/announce.php
 
 
 http://www.mvgroup.org:2710/announce
@@ -664,12 +601,228 @@ http://tracker.xdvdz.com:2710/announce
 http://vps02.net.orel.ru:80/announce
 
 
-http://mixfiend.com/announce.php
-
-
 http://ed2k.vip:7070/announce
 
 
+http://carbon-bonsai-621.appspot.com/announce
+
+
+http://bt2.archive.org:6969/announce
+
+
+http://t1.pow7.com/announce
+
+
+http://proaudiotorrents.org/announce.php
+
+
+http://nyaa.tracker.wf:7777/announce
+
+
+http://kinorun.com/announce.php
+
+
+http://www.thetradersden.org/forums/tracker/announce.php
+
+
+http://tracker.torrentbytes.net/announce.php
+
+
+http://torrent-team.net/announce.php
+
+
+http://bithq.org/announce.php
+
+
+http://masters-tb.com/announce.php
+
+
+http://tracker1.bt.moack.co.kr/announce
+
+
+http://tracker.anirena.com:80/announce
+
+
+http://mediaclub.tv/announce.php
+
+
+http://www.xwt-classics.net/announce.php
+
+
+http://mixfiend.com/announce.php
+
+
+http://107.152.127.9:6969/announce
+
+
+http://tracker.ali213.net:8080/announce
+
+
+http://tracker.sloppyta.co/announce
+
+
+http://torrent.mp3quran.net:80/announce.php
+
+
+http://bt.edwardk.info:4040/announce
+
+
+http://www.tribalmixes.com/announce.php
+
+
+http://www.shnflac.net/announce.php
+
+
+http://www.learnbits.me/announce.php
+
+
+http://bt2.edwardk.info:2710/announce
+
+
+http://tracker.tambovnet.org/announce.php
+
+
+http://concen.org:6969/announce
+
+
+http://tc-boxing.com/announce.php
+
+
+http://tracker.frozen-layer.net:6969/announce
+
+
+http://46.4.109.148:6969/announce
+
+
+http://www.zone-torrent.net:80/announce.php
+
+
+http://tracker.files.fm:6969/announce
+
+
+http://tracker.openbittorrent.com:80/announce
+
+
+http://tracker.ali213.net:8000/announce
+
+
+http://metal.iplay.ro/announce.php
+
+
+http://torrentzilla.org/announce.php
+
+
+http://bt.3dmgame.com:2710/announce
+
+
+http://bt.ali213.net:8000/announce
+
+
+http://91.217.91.21:3218/announce
+
+
+http://torrentzilla.org/announce
+
+
+http://trun.tom.ru:80/announce
+
+
+http://all4nothin.net/announce.php
+
+
+http://datascene.net:80/announce.php
+
+
+http://bt.beatrice-raws.org:80/announce
+
+
+http://tracker.grepler.com:6969/announce
+
+
+http://www.legittorrents.info/announce.php
+
+
+http://www.yuwabits.net/announce.php
+
+
+http://bt1.archive.org:6969/announce
+
+
+http://buny.uk:6969/announce
+
+
+http://tracker.pussytorrents.org:3000/announce
+
+
+http://anidex.moe:6969/announce
+
+
+http://tracker.minglong.org:8080/announce
+
+
+http://torrent.arjlover.net:2710/announce
+
+
+http://datascene.net/announce.php
+
+
+http://www.all4nothin.net/announce.php
+
+
+http://mediaclub.tv/announce
+
+
+http://data-bg.net/announce.php
+
+
+http://torrent.resonatingmedia.com:6969/announce
+
+
+http://torrenttracker.nwc.acsalaska.net:6969/announce
+
+
+http://tracker.kali.org:6969/announce
+
+
+http://tracker.tasvideos.org:6969/announce
+
+
+http://bt.zlofenix.org:81/announce
+
+
+http://torrent.fedoraproject.org:6969/announce
+
+
+http://tracker.vraphim.com:6969/announce
+
+
+http://baibako.tv/announce
+
+
+http://retracker.telecom.by:80/announce
+
+
+http://big-boss-tracker.net/announce.php
+
+
+http://tracker.gigatorrents.ws:2710/announce
+
+
+http://bluebird-hd.org/announce.php
+
+
+http://mvgroup.org:2710/announce
+
+
+http://bluebird-hd.org/announce.php
+
+
 http://www.mvgroup.org:2710/announce
+
+
+http://www.tvnihon.com:6969/announce
+
+
+http://tr.cili001.com:8070/announce
 
 
