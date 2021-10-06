@@ -440,3 +440,6 @@ http://jsb.by:8000/announce
 udp://tracker.pomf.se:80/announce
 http://bt.ali213.net:8080/announce
 udp://retracker.lanta-net.ru:2710/announce
+http://trackme.theom.nz:80/announce
+https://trackme.theom.nz:443/announce
+https://tracker.iriseden.fr:443/announce
