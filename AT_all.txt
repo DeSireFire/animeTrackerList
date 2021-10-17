@@ -391,3 +391,11 @@ udp://thetracker.org:80/announce
 http://78.30.254.12:2710/announce
 http://tracker.vraphim.com:6969/announce
 http://tracker.fdn.fr:6969/announce
+http://datascene.net/announce.php
+http://trackme.theom.nz:80/announce
+https://trackme.theom.nz:443/announce
+https://tracker.parrotlinux.org:443/announce
+https://tracker.iriseden.fr:443/announce
+udp://47.ip-51-68-199.eu:6969/announce
+udp://retracker.lanta-net.ru:2710/announce
+http://share.hkg-fansub.info/announce.php
