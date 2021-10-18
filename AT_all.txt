@@ -399,3 +399,7 @@ https://tracker.iriseden.fr:443/announce
 udp://47.ip-51-68-199.eu:6969/announce
 udp://retracker.lanta-net.ru:2710/announce
 http://share.hkg-fansub.info/announce.php
+udp://156.234.201.18:80/announce
+udp://134.209.1.127:6969/announce
+udp://sugoi.pomf.se:80/announce
+http://tracker.openbittorrent.com/announce
