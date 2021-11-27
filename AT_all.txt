@@ -533,3 +533,5 @@ udp://tracker.haynet.io:6969/announce
 udp://jeremylee.sh:6969/announce
 udp://tracker.filemail.com:6969/announce
 udp://tsundere.pw:6969/announce
+http://tracker.istole.it/announce
+https://t1.tokhmi.xyz:443/announce
