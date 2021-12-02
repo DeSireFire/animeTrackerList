@@ -535,3 +535,5 @@ udp://tracker.filemail.com:6969/announce
 udp://tsundere.pw:6969/announce
 http://tracker.istole.it/announce
 https://t1.tokhmi.xyz:443/announce
+udp://104.143.10.186:8000/announce
+http://104.143.10.186:8000/announce
