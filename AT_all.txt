@@ -374,3 +374,6 @@ http://retracker.ohys.net/announce
 http://tracker.etree.org:6969/announce
 http://open.touki.ru/announce.php
 http://p4p.arenabg.com:1337/announce
+http://tracker.anirena.com:80/b16a15d9a238d1f59178d3614b857290/announce
+udp://51.15.2.221:6969/announce
+udp://tracker.internetwarriors.net:1337/announce	
