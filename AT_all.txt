@@ -418,3 +418,5 @@ http://5.182.206.171:1096/announce
 http://65.21.48.148:6969/announce
 udp://37.235.174.46:2710/announce
 http://78.30.254.12:2710/announce
+udp://tracker4.itzmx.com:2710/announce
+udp://retracker.lanta-net.ru:2710/announce
