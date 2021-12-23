@@ -250,3 +250,5 @@ http://bt.3kb.xyz:80/announce
 http://156.234.201.18/announce
 http://tracker.frozen-layer.net:6969/announce
 http://tracker.openbittorrent.com/announce
+http://tracker.openbittorrent.com:80/announce
+http://bt.edwardk.info:6969/announce
