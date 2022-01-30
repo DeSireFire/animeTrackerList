@@ -1699,3 +1699,6 @@ http://opentracker.i2p.rocks:6969/announce
 udp://opentracker.i2p.rocks:6969/announce
 
 
+udp://ipv4.tracker.harry.lu:80/announce
+
+
