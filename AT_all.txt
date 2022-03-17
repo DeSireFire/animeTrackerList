@@ -640,3 +640,14 @@ http://34.89.30.59/announce
 http://34.89.30.59:11451/announce
 http://222.217.125.250:6969/announce
 http://222.217.125.249:6969/announce
+udp://atrack.pow7.com:80/announce
+http://secure.pow7.com:443/announce
+http://atrack.pow7.com:443/announce
+udp://secure.pow7.com:80/announce
+http://tracker.electro-torrent.pl:80/announce
+udp://pow7.com:80/announce
+http://t1.pow7.com:443/announce
+http://t2.pow7.com:443/announce
+udp://t1.pow7.com:80/announce
+udp://t2.pow7.com:80/announce
+http://tracker.bt-hash.com:80/announce
