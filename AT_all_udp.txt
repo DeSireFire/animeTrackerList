@@ -103,7 +103,7 @@ udp://156.234.201.18:80/announce
 udp://tracker.internetwarriors.net:1337/announce
 udp://tracker.filemail.com:6969/announce
 udp://open.tracker.cl:1337/announce
-udp://tracker.internetwarriors.net:1337/announce	-
+udp://tracker.internetwarriors.net:1337/announce
 udp://tracker1.bt.moack.co.kr:80/announce
 udp://37.235.174.46:2710/announce
 udp://tracker4.itzmx.com:2710/announce
@@ -127,7 +127,8 @@ udp://tracker.skyts.net:6969/announce
 udp://qg.lorzl.gq:2710/announce
 udp://mail.moneysfast.com:6969/announce
 udp://qg.lorzl.gq:6969/announce
-http://nyaa.tracker.wf:7777/announceudp://opentor.org:2710/announce
+http://nyaa.tracker.wf:7777/announce
+udp://opentor.org:2710/announce
 udp://tracker.trackerfix.com:82/announce
 udp://9.rarbg.me:2780/announce
 udp://9.rarbg.me:2930/announce

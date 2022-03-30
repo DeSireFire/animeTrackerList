@@ -352,7 +352,7 @@ http://tracker.noobsubs.net/announce
 http://tracker.tambovnet.org/announce.php
 
 
-http://opentracker.acgnx.com:6869/announce"
+http://opentracker.acgnx.com:6869/announce
 
 
 http://tracker.publictorrent.net:80/announce
@@ -967,7 +967,10 @@ http://peersteers.org/announce
 http://45.154.253.4/announce
 
 
-http://open.acgtracker.com:1096/announcehttp://tracker1.itzmx.com:8080/announce
+http://open.acgtracker.com:1096/announce
+
+
+http://tracker1.itzmx.com:8080/announce
 
 
 http://177.198.120.30:6969/announce

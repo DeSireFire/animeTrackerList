@@ -652,7 +652,7 @@ https://trakx.herokuapp.com/announce
 udp://tracker.auctor.tv:6969/announce
 
 
-http://opentracker.acgnx.com:6869/announce"
+http://opentracker.acgnx.com:6869/announce
 
 
 http://tracker.publictorrent.net:80/announce
@@ -1228,7 +1228,7 @@ http://rt.optizone.ru/announce
 http://207.241.226.111:6969/announce
 
 
-udp://tracker.internetwarriors.net:1337/announce	-
+udp://tracker.internetwarriors.net:1337/announce
 
 
 http://tracker.ipv6tracker.org/announce
@@ -1477,7 +1477,10 @@ udp://qg.lorzl.gq:6969/announce
 https://tracker.nyaa.tk/announce
 
 
-http://nyaa.tracker.wf:7777/announceudp://opentor.org:2710/announce
+http://nyaa.tracker.wf:7777/announce
+
+
+udp://opentor.org:2710/announce
 
 
 udp://tracker.trackerfix.com:82/announce
@@ -1675,7 +1678,10 @@ http://45.154.253.4/announce
 udp://tracker.swateam.org.uk:2710/announce
 
 
-http://open.acgtracker.com:1096/announcehttp://tracker1.itzmx.com:8080/announce
+http://open.acgtracker.com:1096/announce
+
+
+http://tracker1.itzmx.com:8080/announce
 
 
 http://177.198.120.30:6969/announce

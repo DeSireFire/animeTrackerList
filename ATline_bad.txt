@@ -118,7 +118,7 @@ http://agusiq-torrents.pl:6969/announce
 http://www.loushao.net:8080/announce
 
 
-http://retracker.local/announce.php?size=558584045&amp;comment=http%3A%2F%2Fnnmclub.to%2Fforum%2Fviewtopic.php%3Fp%3D3274488&amp;name=Honoo+Tripper+%2F+Fire+Tripper+%2F+%D1%EA%E2%EE%E7%FC+%EE%E3%EE%ED%FC+%5B1985%2C+OAV%5D+DVDRip+raw
+http://retracker.local/announce.php
 
 
 https://opentracker.acgnx.se:443/announce
@@ -181,7 +181,7 @@ udp://9.rarbg.com:2780/announce
 udp://9.rarbg.com:2930/announce
 
 
-udp://tracker.internetwarriors.net:1337/announce	-
+udp://tracker.internetwarriors.net:1337/announce
 
 
 udp://tracker.ktxp.com:7070/announce
@@ -1892,9 +1892,6 @@ udp://z.mercax.com:53/announce
 
 
 http://tracker.port443.xyz:6969/announce
-
-
-SkyeySnow
 
 
 http://104.28.1.30:8080/announce
