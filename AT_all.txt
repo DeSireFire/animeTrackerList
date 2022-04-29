@@ -730,3 +730,4 @@ http://5.180.31.155:2710/announce
 udp://tracker.dump.cl:6969/announce
 http://tracker.frozen-layer.com:6969/announce
 https://tracker1.ctix.cn/announce
+wss://spacetradersapi-chatbox.herokuapp.com:443/announce
