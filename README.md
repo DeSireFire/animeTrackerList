@@ -28,34 +28,34 @@
 带中括号[]和空格的Tracker地址是什么鬼！
 ```
 
-#### 更新时间（Updated）: 2022-06-09 01:16:20 
+#### 更新时间（Updated）: 2022-06-09 12:14:48 
 
 > RAW
 
 ```text
 * AT_best(更新 26): https://raw.githubusercontent.com/DeSireFire/animeTrackerList/master/AT_best.txt 
-* AT_all(更新 792): https://raw.githubusercontent.com/DeSireFire/animeTrackerList/master/AT_all.txt 
+* AT_all(更新 793): https://raw.githubusercontent.com/DeSireFire/animeTrackerList/master/AT_all.txt 
 * AT_all_udp(更新 184): https://raw.githubusercontent.com/DeSireFire/animeTrackerList/master/AT_all_udp.txt 
-* AT_all_http(更新 466): https://raw.githubusercontent.com/DeSireFire/animeTrackerList/master/AT_all_http.txt 
+* AT_all_http(更新 467): https://raw.githubusercontent.com/DeSireFire/animeTrackerList/master/AT_all_http.txt 
 * AT_all_https(更新 137): https://raw.githubusercontent.com/DeSireFire/animeTrackerList/master/AT_all_https.txt 
 * AT_all_ws(更新 6): https://raw.githubusercontent.com/DeSireFire/animeTrackerList/master/AT_all_ws.txt 
 * AT_best_ip(更新 0): https://raw.githubusercontent.com/DeSireFire/animeTrackerList/master/AT_best_ip.txt 
 * AT_all_ip(更新 26): https://raw.githubusercontent.com/DeSireFire/animeTrackerList/master/AT_all_ip.txt 
-* AT_bad(更新 833): https://raw.githubusercontent.com/DeSireFire/animeTrackerList/master/AT_bad.txt 
+* AT_bad(更新 832): https://raw.githubusercontent.com/DeSireFire/animeTrackerList/master/AT_bad.txt 
 ```
 
 > Aria2 逗号分隔
 
 ```text
 * ATaria2_best(更新 26): https://raw.githubusercontent.com/DeSireFire/animeTrackerList/master/ATaria2_best.txt 
-* ATaria2_all(更新 792): https://raw.githubusercontent.com/DeSireFire/animeTrackerList/master/ATaria2_all.txt 
+* ATaria2_all(更新 793): https://raw.githubusercontent.com/DeSireFire/animeTrackerList/master/ATaria2_all.txt 
 * ATaria2_all_udp(更新 184): https://raw.githubusercontent.com/DeSireFire/animeTrackerList/master/ATaria2_all_udp.txt 
-* ATaria2_all_http(更新 466): https://raw.githubusercontent.com/DeSireFire/animeTrackerList/master/ATaria2_all_http.txt 
+* ATaria2_all_http(更新 467): https://raw.githubusercontent.com/DeSireFire/animeTrackerList/master/ATaria2_all_http.txt 
 * ATaria2_all_https(更新 137): https://raw.githubusercontent.com/DeSireFire/animeTrackerList/master/ATaria2_all_https.txt 
 * ATaria2_all_ws(更新 6): https://raw.githubusercontent.com/DeSireFire/animeTrackerList/master/ATaria2_all_ws.txt 
 * ATaria2_best_ip(更新 0): https://raw.githubusercontent.com/DeSireFire/animeTrackerList/master/ATaria2_best_ip.txt 
 * ATaria2_all_ip(更新 26): https://raw.githubusercontent.com/DeSireFire/animeTrackerList/master/ATaria2_all_ip.txt 
-* ATaria2_bad(更新 833): https://raw.githubusercontent.com/DeSireFire/animeTrackerList/master/ATaria2_bad.txt 
+* ATaria2_bad(更新 832): https://raw.githubusercontent.com/DeSireFire/animeTrackerList/master/ATaria2_bad.txt 
 ```
 
 > TurnLine 间隔空行分隔
