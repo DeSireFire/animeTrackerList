@@ -919,3 +919,8 @@ https://evening-badlands-6215.herokuapp.com/announce
 http://alpha.torrenttracker.nl:443/announce
 http://peersteers.org:80/announce
 http://servandroidkino.ru/announce
+udp://torrents.artixlinux.org:6969/announce
+udp://tracker.tcp.exchange:6969/announce
+udp://moonburrow.club:6969/announce
+udp://tracker.4.babico.name.tr:3131/announce
+https://zer0day.000webhostapp.com/announce
