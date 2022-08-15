@@ -929,3 +929,5 @@ udp://tracker.army:6969/announce
 https://t.quic.ws/announce
 http://179.100.89.65:6969/announce
 https://tracker.m-team.cc/announce.php
+http://tracker.dutchtracking.nl:80/announce
+http://tracker.dutchtracking.nl/announce
