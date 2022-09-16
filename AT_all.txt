@@ -436,3 +436,5 @@ https://tr.bangumi.moe:6969/announce
 http://167.235.245.209/announce
 http://tracker.frozen-layer.net:6969/announce.php
 http://chouchou.top:8080/announce
+udp://tracker1.itzmx.com:8080/announce
+udp://retracker.lanta-net.ru:2710/announce
