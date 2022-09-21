@@ -486,3 +486,4 @@ udp://open.tracker.cl:1337/announce
 http://45.154.253.6/announce
 https://abir0dev.github.io:443/announce
 http://tracker.lintk.me:2710/announce
+udp://tracker.zemoj.com:6969/announce
