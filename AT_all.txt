@@ -575,3 +575,5 @@ udp://bananas.space:6969/announce
 udp://elementsbrowser.com:6969/announce
 udp://mserver.link:6969/announce
 udp://kokodayo.site:6969/announce
+https://t1.hloli.org:443/announce
+https://tracker.srv00.com:443/announce
