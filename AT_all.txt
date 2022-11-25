@@ -675,3 +675,5 @@ http://217.30.10.77:6969/announce
 udp://pow7.com:80/announce
 http://bz.tracker.bz/announce
 https://chihaya-heroku.120181311.xyz/announce
+https://chihaya-heroku.120181311.xyz:443/announce
+http://bt.poletracker.org:2710/announce
