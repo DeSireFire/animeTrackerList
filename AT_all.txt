@@ -813,3 +813,7 @@ http://tracker.shittyurl.org/announce
 https://voxhost.fr/announce
 http://milliontorrent.pl/announce.php
 http://tracker.baka-sub.cf/announce
+udp://207.241.226.111:6969/announce
+udp://207.241.231.226:6969/announce
+udp://93.158.213.92:1337//announce
+udp://185.181.60.67:80/announce
