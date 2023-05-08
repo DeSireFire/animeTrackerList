@@ -965,3 +965,7 @@ http://171.104.111.20:6969/announce
 http://97.117.114.88:9000/announce
 udp://51.81.222.188:6969/announce
 udp://tracker.ccp.ovh:6969/announce
+http://tr.nyacat.pw/announce
+http://tracker.btcake.com/announce
+https://tr.nyacat.pw/announce
+http://tracker.btcake.com:80/announce
