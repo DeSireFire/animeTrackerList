@@ -1004,3 +1004,5 @@ http://tracker.bt-chat.com/announce
 http://torrents.linuxmint.com:80/announce.php
 http://www.megatorrents.kg:80/announce.php
 http://torrent.unix-ag.uni-kl.de:80/announce
+udp://185.230.4.150:1337/announce
+http://185.230.4.150:1337/announce
