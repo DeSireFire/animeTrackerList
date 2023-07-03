@@ -1013,3 +1013,6 @@ http://p4p.arenabg.com:1337/announce
 https://tracker.cloudit.top/announce
 http://45.154.253.10:80/announce
 http://shubt.net:2710/announce
+http://tracker.ex.ua/announce
+udp://tracker.ex.ua:80/announce
+http://tracker.ex.ua:80/announce
