@@ -113,7 +113,7 @@ __pycache__/
 tracker.txt
 autopush.sh
 torrent-parser.py
-animeTrackerList.py
+animeTrackerList_old2.py
 animeTrackerListStart.sh
 proxyPool.sh
 animeTrackerList(back).py
@@ -125,3 +125,4 @@ requirements.txt
 *.sh
 /loadtxt.py
 /best.txt
+*.py
